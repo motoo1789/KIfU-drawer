@@ -1,0 +1,1948 @@
+110	1	Place	PlaceArtifacts	null	null	
+111	43	Place	PlaceArtifacts	null	null	
+112	1	Place	PlaceArtifacts	null	null	
+113	1	Place	PlaceArtifacts	null	null	
+114	2	Place	PlaceArtifacts	null	null	2	-Placeの理由:
+できるだけ関連の線は互いに直角になるように
+115	40	Create	Relation	undefined	1..*	
+116	40	Create	Relation	undefined	1..*	
+117	9	Create	Relation	No Name	所属する	
+118	2	Place	PlaceArtifacts	null	null	
+119	6	Create	ClassRelationLinkArtifact[14084]	null	0,0	
+120	6	Create	Relation	undefined	１	
+121	17	RemoveArtifacts	Relation	１		
+122	6	Create	Relation	undefined	1	
+123	24	Create	Relation	No Name	管理する	
+124	30	Edit	Relation	１	1..*	
+125	20	Place	PlaceArtifacts	null	null	
+126	4	Create	ClassRelationLinkArtifact[14422]	null	0,0	
+127	2	Place	PlaceArtifacts	null	null	
+128	1	Place	PlaceArtifacts	null	null	
+129	1	Place	PlaceArtifacts	null	null	
+130	1	Place	PlaceArtifacts	null	null	
+131	0	Place	PlaceArtifacts	null	null	
+132	2	Place	PlaceArtifacts	null	null	
+133	4	Place	PlaceArtifacts	null	null	
+134	2	Place	PlaceArtifacts	null	null	
+135	27	Create	Relation	No Name	作成する	
+136	10	Create	Relation	undefined	1	
+137	50	Create	Relation	undefined	*	
+138	23	Edit	Relation	*	1..*	
+139	6	Place	PlaceArtifacts	null	null	
+140	2	Place	PlaceArtifacts	null	null	
+141	0	Place	PlaceArtifacts	null	null	
+142	20	Place	PlaceArtifacts	null	null	
+143	68	Place	PlaceArtifacts	null	null	
+144	10	Place	PlaceArtifacts	null	null	
+145	55	Create	ClassName	Class13	役割	
+146	0	Place	PlaceArtifacts	null	null	
+147	12	Create	Attribute	-attribute : String	役割名	
+148	5	Place	PlaceArtifacts	null	null	
+149	3	Place	PlaceArtifacts	null	null	
+150	3	Create	ClassRelationLinkArtifact[15415]	null	0,0	
+151	4	Place	PlaceArtifacts	null	null	
+152	1	Place	PlaceArtifacts	null	null	
+153	1	Place	PlaceArtifacts	null	null	
+154	1	Place	PlaceArtifacts	null	null	
+155	16	Create	Relation	No Name	役割持ち	
+156	3	Place	PlaceArtifacts	null	null	
+157	16	Create	Relation	undefined	１..*	
+158	36	Create	Relation	undefined	1	
+159	38	Edit	ClassName	管理システム	責任者	
+160	1	Place	PlaceArtifacts	null	null	
+161	28	Create	ClassRelationLinkArtifact[16006]	null	0,0	
+162	2	Place	PlaceArtifacts	null	null	
+163	8	RemoveArtifacts	Attribute	-attribute : String		
+164	51	Create	Relation	No Name	管理する	
+165	3	Place	PlaceArtifacts	null	null	
+166	2	Place	PlaceArtifacts	null	null	
+167	2	Place	PlaceArtifacts	null	null	
+168	1	Place	PlaceArtifacts	null	null	
+169	1	Place	PlaceArtifacts	null	null	
+170	0	Place	PlaceArtifacts	null	null	
+171	35	Create	Relation	undefined	1	
+172	3	Create	Relation	undefined	1	
+173	19	Edit	Relation	1	1..*	
+174	4	Place	PlaceArtifacts	null	null	
+175	2	Place	PlaceArtifacts	null	null	
+176	21	Create	ClassRelationLinkArtifact[16802]	null	0,0	
+177	12	Place	PlaceArtifacts	null	null	
+178	10	RemoveArtifacts	Relation	undefined		
+179	26	Create	Relation	No Name	任命される	
+180	43	Create	Relation	undefined	1	
+181	17	Create	Relation	undefined	1..*	3	まだ途中
+
+34:1145336-------------------------------
+1	0	Start	Start	null	null	
+2	190	Place	PlaceArtifacts	null	null	
+3	1	Place	PlaceArtifacts	null	null	
+4	96	Create	ClassName	Class4	部署	
+5	98	Place	PlaceArtifacts	null	null	
+6	2	Place	PlaceArtifacts	null	null	
+7	12	Create	ClassName	Class5	社員	
+8	2	Place	PlaceArtifacts	null	null	
+9	18	Create	Attribute	-attribute : String	部長ID	
+10	0	Place	PlaceArtifacts	null	null	
+11	1	Place	PlaceArtifacts	null	null	
+12	22	Place	PlaceArtifacts	null	null	
+13	28	Create	Attribute	-attribute : String	部署名	
+14	2	Place	PlaceArtifacts	null	null	
+15	2	Place	PlaceArtifacts	null	null	
+16	14	Place	PlaceArtifacts	null	null	
+17	0	Place	PlaceArtifacts	null	null	
+18	12	Create	Attribute	-attribute : String	社員ID	
+19	12	Create	Attribute	-attribute : String	社員名	
+20	56	Create	ClassRelationLinkArtifact[6187]	null	0,0	
+21	4	Place	PlaceArtifacts	null	null	
+22	95	Create	Relation	No Name	所属している	1	社員は部署に所属しているの関連ずけました
+。
+23	70	Place	PlaceArtifacts	null	null	
+24	1	Place	PlaceArtifacts	null	null	
+25	24	Create	ClassName	Class6	プロジェクト	
+26	3	Place	PlaceArtifacts	null	null	
+27	61	Create	Attribute	-attribute : String	プロジェクトID	
+28	12	Create	Attribute	-attribute : String	プロジェクト名	
+29	2	Place	PlaceArtifacts	null	null	
+30	7	Create	ClassRelationLinkArtifact[6824]	null	0,0	
+31	5	Place	PlaceArtifacts	null	null	
+32	6	Place	PlaceArtifacts	null	null	
+33	17	Place	PlaceArtifacts	null	null	
+34	118	Create	Relation	No Name	管理	
+35	185	Place	PlaceArtifacts	null	null	
+36	1	Place	PlaceArtifacts	null	null	
+37	9	Create	ClassName	Class7	成果物	
+38	2	Place	PlaceArtifacts	null	null	
+39	2	Place	PlaceArtifacts	null	null	
+40	1	Place	PlaceArtifacts	null	null	
+41	13	Create	Relation	undefined	＊	2	プロジェクトを管理していないかもしれない
+また、複数管理しているかもしれない
+42	45	Create	Relation	undefined	1	3	プロジェクトに参加している部署は複数かもしれないが、管理している部署は１つ
+43	16	RemoveArtifacts	Relation	undefined		
+44	13	RemoveArtifacts	Relation	undefined		
+45	0	Place	PlaceArtifacts	null	null	
+46	10	Create	Relation	undefined	1..＊	4	複数の部署に所属している可能性がある
+47	15	Create	Relation	undefined	1..＊	5	社員は複数所属している可能性
+48	37	Place	PlaceArtifacts	null	null	
+49	5	Create	ClassRelationLinkArtifact[7859]	null	0,0	
+50	44	RemoveArtifacts	Relation	undefined		
+51	0	Place	PlaceArtifacts	null	null	
+52	34	Create	Relation	undefined	＊	6	成果物は０かもしれない
+53	11	RemoveArtifacts	Relation	undefined		
+54	40	Create	Relation	No Name	成果	
+55	7	Create	Relation	undefined	1	
+56	5	Place	PlaceArtifacts	null	null	
+57	31	Edit	Relation	1	0..1	
+58	1	Place	PlaceArtifacts	null	null	
+59	11	Place	PlaceArtifacts	null	null	
+60	3	Place	PlaceArtifacts	null	null	
+61	11	Place	PlaceArtifacts	null	null	
+62	11	Place	PlaceArtifacts	null	null	
+63	4	Place	PlaceArtifacts	null	null	
+64	4	Place	PlaceArtifacts	null	null	
+65	3	Place	PlaceArtifacts	null	null	
+66	2	Place	PlaceArtifacts	null	null	
+67	17	Place	PlaceArtifacts	null	null	
+68	1	Place	PlaceArtifacts	null	null	
+69	8	Edit	ClassName	成果物	責任者	
+70	17	Edit	Relation	0..1	＊	
+71	88	RemoveArtifacts	Relation	成果		
+72	10	Place	PlaceArtifacts	null	null	
+73	15	Place	PlaceArtifacts	null	null	
+74	5	RemoveArtifacts	Relation	成果		
+75	3	Place	PlaceArtifacts	null	null	
+76	8	RemoveArtifacts	RemoveArtifacts	null	null	
+77	2	Place	PlaceArtifacts	null	null	
+78	44	Place	PlaceArtifacts	null	null	
+79	15	Place	PlaceArtifacts	null	null	
+80	6	Place	PlaceArtifacts	null	null	
+81	3	Place	PlaceArtifacts	null	null	
+82	12	Create	ClassName	Class8	成果物	
+83	2	Place	PlaceArtifacts	null	null	
+84	4	Place	PlaceArtifacts	null	null	
+85	3	Create	ClassRelationLinkArtifact[11629]	null	0,0	
+86	4	Create	ClassRelationLinkArtifact[11694]	null	0,0	
+87	3	Place	PlaceArtifacts	null	null	
+88	4	Place	PlaceArtifacts	null	null	
+89	11	Edit	Relation	管理	管理する	
+90	28	Edit	Relation	所属している	所属する	
+91	1	Place	PlaceArtifacts	null	null	
+92	21	Place	PlaceArtifacts	null	null	
+93	1	Place	PlaceArtifacts	null	null	
+94	4	Place	PlaceArtifacts	null	null	
+95	21	Create	Relation	No Name	管理する	
+96	9	RemoveArtifacts	Relation	undefined		
+97	8	Create	Relation	undefined	1	
+98	4	Create	Relation	undefined	＊	
+99	4	Place	PlaceArtifacts	null	null	
+100	14	Create	Attribute	-attribute : String	責任者ID	
+101	3	Place	PlaceArtifacts	null	null	
+102	0	Place	PlaceArtifacts	null	null	
+103	10	Place	PlaceArtifacts	null	null	
+104	0	Place	PlaceArtifacts	null	null	
+105	1	Place	PlaceArtifacts	null	null	
+106	0	Place	PlaceArtifacts	null	null	
+107	1	Place	PlaceArtifacts	null	null	
+108	0	Place	PlaceArtifacts	null	null	
+109	1	Place	PlaceArtifacts	null	null	
+110	0	Place	PlaceArtifacts	null	null	
+111	0	Place	PlaceArtifacts	null	null	
+112	0	Place	PlaceArtifacts	null	null	
+113	1	Place	PlaceArtifacts	null	null	
+114	0	Place	PlaceArtifacts	null	null	
+115	1	Place	PlaceArtifacts	null	null	
+116	16	Create	Attribute	-attribute : String	成果物ID	
+117	3	Place	PlaceArtifacts	null	null	
+118	5	Place	PlaceArtifacts	null	null	
+119	0	Place	PlaceArtifacts	null	null	
+120	0	Place	PlaceArtifacts	null	null	
+121	9	Create	Relation	undefined	1	
+122	3	Create	Relation	undefined	＊	
+123	87	Place	PlaceArtifacts	null	null	
+124	2	Place	PlaceArtifacts	null	null	
+125	2	Place	PlaceArtifacts	null	null	
+126	3	Place	PlaceArtifacts	null	null	
+127	5	Place	PlaceArtifacts	null	null	
+128	16	Place	PlaceArtifacts	null	null	
+129	4	Place	PlaceArtifacts	null	null	
+130	2	Place	PlaceArtifacts	null	null	
+131	2	Place	PlaceArtifacts	null	null	
+132	3	Place	PlaceArtifacts	null	null	
+133	1	Place	PlaceArtifacts	null	null	
+134	2	Place	PlaceArtifacts	null	null	
+135	3	Place	PlaceArtifacts	null	null	
+136	3	Place	PlaceArtifacts	null	null	
+137	1	Place	PlaceArtifacts	null	null	
+138	3	Place	PlaceArtifacts	null	null	
+139	4	Place	PlaceArtifacts	null	null	
+140	37	Place	PlaceArtifacts	null	null	
+141	105	Place	PlaceArtifacts	null	null	
+142	1	Place	PlaceArtifacts	null	null	
+143	9	Place	PlaceArtifacts	null	null	
+144	1	Place	PlaceArtifacts	null	null	
+145	4	Place	PlaceArtifacts	null	null	
+146	27	Place	PlaceArtifacts	null	null	
+147	14	Place	PlaceArtifacts	null	null	
+148	1	Place	PlaceArtifacts	null	null	
+149	1	Place	PlaceArtifacts	null	null	
+150	1	Place	PlaceArtifacts	null	null	
+151	0	Place	PlaceArtifacts	null	null	
+152	0	Place	PlaceArtifacts	null	null	
+153	1	Place	PlaceArtifacts	null	null	
+154	0	Place	PlaceArtifacts	null	null	
+155	53	Create	ClassName	Class9	担当	
+156	24	Place	PlaceArtifacts	null	null	
+157	14	Create	Attribute	-attribute : String	開発者	
+158	1	Place	PlaceArtifacts	null	null	
+159	6	Place	PlaceArtifacts	null	null	
+160	5	Place	PlaceArtifacts	null	null	
+161	7	Place	PlaceArtifacts	null	null	
+162	0	Place	PlaceArtifacts	null	null	
+163	11	Create	Attribute	-attribute : String	マネージャ	
+164	10	Create	Attribute	-attribute : String	テスター	
+165	2	Place	PlaceArtifacts	null	null	
+166	4	Place	PlaceArtifacts	null	null	
+167	40	Place	PlaceArtifacts	null	null	
+168	19	Create	Attribute	-attribute : String	予備人員	
+169	20	RemoveArtifacts	Attribute	-attribute : String		
+170	13	Create	Attribute	-attribute : String	・・・・・・etc	
+171	2	Place	PlaceArtifacts	null	null	
+172	2	Place	PlaceArtifacts	null	null	
+173	10	Place	PlaceArtifacts	null	null	
+174	14	Place	PlaceArtifacts	null	null	
+175	11	Place	PlaceArtifacts	null	null	
+176	3	Place	PlaceArtifacts	null	null	
+177	4	Place	PlaceArtifacts	null	null	
+178	4	Create	ClassRelationLinkArtifact[19038]	null	0,0	
+179	14	Create	Relation	No Name	担当する	
+180	14	Create	Relation	undefined	1..＊	
+181	6	Create	Relation	undefined	＊	
+182	3	Place	PlaceArtifacts	null	null	
+183	29	Place	PlaceArtifacts	null	null	
+184	7	RemoveArtifacts	RemoveArtifacts	null	null	7	関連をつけると改めて考え直し必要ないと思ったから。
+185	47	Save	Save	null	null	
+186	11	Submit	Submit	null	null	8	少し途中です。
+
+35:1145339-------------------------------
+1	0	Start	Start	null	null	
+2	422	Place	PlaceArtifacts	null	null	
+3	10	Create	ClassName	Class2	部署１	
+4	7	Place	PlaceArtifacts	null	null	
+5	8	Create	ClassName	Class3	部署２	
+6	3	Place	PlaceArtifacts	null	null	
+7	1	Place	PlaceArtifacts	null	null	
+8	4	Create	ClassName	Class4	部署３	
+9	30	Create	Attribute	-attribute : String	部署ID	
+10	8	Create	Attribute	-attribute : String	部署名	
+11	26	Place	PlaceArtifacts	null	null	
+12	23	Create	ClassName	Class5	プロジェクト１	
+13	11	Create	Attribute	-attribute : String	プロジェクトID	
+14	8	Create	Attribute	-attribute : String	プロジェクト名	
+15	15	Create	Attribute	-attribute : String	担当部署	
+16	33	Place	PlaceArtifacts	null	null	
+17	1	Place	PlaceArtifacts	null	null	
+18	3	Create	ClassName	Class6	社員	
+19	9	Create	Attribute	-attribute : String	社員ID	
+20	7	Create	Attribute	-attribute : String	社員情報	
+21	10	Edit	Attribute	-社員情報	-社員名	
+22	13	Place	PlaceArtifacts	null	null	
+23	6	Place	PlaceArtifacts	null	null	
+24	18	Create	Attribute	-attribute : String	プロジェクト内での担当	
+25	31	Place	PlaceArtifacts	null	null	
+26	1	Undo	30095	null	null	
+27	0	Undo	30009	null	null	
+28	5	Place	PlaceArtifacts	null	null	
+29	18	Create	Attribute	-attribute : String	プロジェクト内の担当	
+30	20	Place	PlaceArtifacts	null	null	
+31	4	Place	PlaceArtifacts	null	null	
+32	3	Place	PlaceArtifacts	null	null	
+33	4	Place	PlaceArtifacts	null	null	
+34	3	Place	PlaceArtifacts	null	null	
+35	2	RemoveArtifacts	RemoveArtifacts	null	null	
+36	8	Place	PlaceArtifacts	null	null	
+37	2	Place	PlaceArtifacts	null	null	
+38	14	Edit	ClassName	CopyOf部署１	部署2	
+39	20	Place	PlaceArtifacts	null	null	
+40	13	Edit	ClassName	CopyOfプロジェクト１	プロジェクト2	
+41	5	Place	PlaceArtifacts	null	null	
+42	3	RemoveArtifacts	RemoveArtifacts	null	null	
+43	4	Place	PlaceArtifacts	null	null	
+44	2	Place	PlaceArtifacts	null	null	
+45	9	Edit	ClassName	CopyOf部署2	部署3	
+46	27	Place	PlaceArtifacts	null	null	
+47	9	RemoveArtifacts	RemoveArtifacts	null	null	
+48	1	RemoveArtifacts	RemoveArtifacts	null	null	
+49	1	RemoveArtifacts	RemoveArtifacts	null	null	
+50	2	Place	PlaceArtifacts	null	null	
+51	1	Place	PlaceArtifacts	null	null	
+52	1	Place	PlaceArtifacts	null	null	
+53	3	Place	PlaceArtifacts	null	null	
+54	1	Place	PlaceArtifacts	null	null	
+55	2	Undo	30982	null	null	
+56	0	Undo	30966	null	null	
+57	1	Undo	30961	null	null	
+58	0	Undo	30957	null	null	
+59	0	Undo	30952	null	null	
+60	0	Undo	30948	null	null	
+61	5	Place	PlaceArtifacts	null	null	
+62	3	RemoveArtifacts	RemoveArtifacts	null	null	
+63	13	Edit	ClassName	部署１	部署	
+64	6	Edit	ClassName	プロジェクト１	プロジェクト	
+65	27	Create	Attribute	-attribute : String	所属部署	
+66	36	Create	ClassRelationLinkArtifact[4263]	null	0,0	
+67	30	Create	Relation	undefined	1,*	
+68	78	RemoveArtifacts	Relation	undefined		
+69	36	Edit	Relation	1,*	1..*	
+70	11	Place	PlaceArtifacts	null	null	
+71	2	Place	PlaceArtifacts	null	null	
+72	14	Place	PlaceArtifacts	null	null	
+73	1	Place	PlaceArtifacts	null	null	
+74	2	Difficult	Difficult	null	null	
+75	1	Place	PlaceArtifacts	null	null	
+76	1	Place	PlaceArtifacts	null	null	
+77	0	Place	PlaceArtifacts	null	null	
+78	170	Place	PlaceArtifacts	null	null	
+79	17	RemoveArtifacts	Attribute	-所属部署		
+80	23	Create	Relation	No Name	所属する	
+81	33	Create	Relation	undefined	0..＊	
+82	36	Place	PlaceArtifacts	null	null	
+83	10	Place	PlaceArtifacts	null	null	
+84	3	Place	PlaceArtifacts	null	null	
+85	11	Create	ClassRelationLinkArtifact[5745]	null	0,0	
+86	3	Create	ClassRelationLinkArtifact[5890]	null	0,0	
+87	6	Place	PlaceArtifacts	null	null	
+88	3	Place	PlaceArtifacts	null	null	
+89	9	Create	Relation	No Name	担当する	
+90	30	Place	PlaceArtifacts	null	null	
+91	2	Place	PlaceArtifacts	null	null	
+92	4	Create	ClassName	Class8	会社	
+93	5	Place	PlaceArtifacts	null	null	
+94	1	Undo	33732	null	null	
+95	1	Undo	33727	null	null	
+96	5	Create	ClassName	Class8	会社	
+97	6	Create	ClassRelationLinkArtifact[7485]	null	0,0	
+98	6	Create	Relation	No Name	成果物	
+99	4	Place	PlaceArtifacts	null	null	
+100	8	Place	PlaceArtifacts	null	null	
+101	10	Place	PlaceArtifacts	null	null	
+102	17	Place	PlaceArtifacts	null	null	
+103	2	RemoveArtifacts	RemoveArtifacts	null	null	
+104	43	RemoveArtifacts	RemoveArtifacts	null	null	
+105	3	Create	ClassRelationLinkArtifact[9755]	null	0,0	
+106	40	Create	Relation	No Name	所属[掛け持ち可]	
+107	15	Place	PlaceArtifacts	null	null	
+108	3	Place	PlaceArtifacts	null	null	
+109	43	Create	Relation	undefined	0..＊	
+110	47	Create	Relation	undefined	1..＊	
+111	24	Create	Relation	undefined	1	
+112	13	Create	Relation	undefined	1	
+113	28	Edit	Relation	1	1..*	
+114	17	Place	PlaceArtifacts	null	null	
+115	1	Place	PlaceArtifacts	null	null	
+116	6	Create	ClassName	Class10	成果物	
+117	8	Create	Attribute	-attribute : String	成果物名	
+118	2	Place	PlaceArtifacts	null	null	
+119	2	Place	PlaceArtifacts	null	null	
+120	1	RemoveArtifacts	RemoveArtifacts	null	null	
+121	3	Place	PlaceArtifacts	null	null	
+122	5	Create	ClassRelationLinkArtifact[11328]	null	0,0	
+123	6	Create	Relation	No Name	作成する	
+124	18	Create	Relation	undefined	1..＊	
+125	157	Create	Relation	undefined	1..＊	
+126	43	Edit	Relation	1..＊	1	
+127	66	Edit	Relation	1..＊	1	
+128	28	Edit	Relation	1	1..*	
+129	42	Place	PlaceArtifacts	null	null	
+130	31	Edit	Relation	1..＊	0..＊	
+131	25	Place	PlaceArtifacts	null	null	
+132	24	Place	PlaceArtifacts	null	null	
+133	6	RemoveArtifacts	Attribute	-プロジェクト内の担当		
+134	6	Place	PlaceArtifacts	null	null	
+135	3	Place	PlaceArtifacts	null	null	
+136	4	Place	PlaceArtifacts	null	null	
+137	1	Place	PlaceArtifacts	null	null	
+138	8	Place	PlaceArtifacts	null	null	
+139	2	Place	PlaceArtifacts	null	null	
+140	46	Place	PlaceArtifacts	null	null	
+141	6	Place	PlaceArtifacts	null	null	
+142	6	Place	PlaceArtifacts	null	null	
+143	7	Place	PlaceArtifacts	null	null	
+144	3	Place	PlaceArtifacts	null	null	
+145	1	Place	PlaceArtifacts	null	null	
+146	1	Place	PlaceArtifacts	null	null	
+147	3	Place	PlaceArtifacts	null	null	
+148	1	Place	PlaceArtifacts	null	null	
+149	6	Place	PlaceArtifacts	null	null	
+150	1	Place	PlaceArtifacts	null	null	
+151	1	Place	PlaceArtifacts	null	null	
+152	1	Place	PlaceArtifacts	null	null	
+153	2	Place	PlaceArtifacts	null	null	
+154	1	Place	PlaceArtifacts	null	null	
+155	1	Place	PlaceArtifacts	null	null	
+156	1	Place	PlaceArtifacts	null	null	
+157	4	Place	PlaceArtifacts	null	null	
+158	11	Place	PlaceArtifacts	null	null	
+159	1	Place	PlaceArtifacts	null	null	
+160	8	Place	PlaceArtifacts	null	null	
+161	3	Place	PlaceArtifacts	null	null	
+162	11	Place	PlaceArtifacts	null	null	
+163	1	Place	PlaceArtifacts	null	null	
+164	2	Place	PlaceArtifacts	null	null	
+165	6	Place	PlaceArtifacts	null	null	
+166	4	Place	PlaceArtifacts	null	null	
+167	1	Place	PlaceArtifacts	null	null	
+168	2	Place	PlaceArtifacts	null	null	
+169	2	Place	PlaceArtifacts	null	null	
+170	4	Place	PlaceArtifacts	null	null	
+171	9	Place	PlaceArtifacts	null	null	
+172	17	Place	PlaceArtifacts	null	null	
+173	3	Place	PlaceArtifacts	null	null	
+174	2	Place	PlaceArtifacts	null	null	
+175	6	Place	PlaceArtifacts	null	null	
+176	1	Place	PlaceArtifacts	null	null	
+177	3	Place	PlaceArtifacts	null	null	
+178	2	Place	PlaceArtifacts	null	null	
+179	2	Place	PlaceArtifacts	null	null	
+180	4	Place	PlaceArtifacts	null	null	
+181	22	Edit	Relation	0..＊	＊	
+182	7	Edit	Relation	0..＊	＊	
+183	7	Edit	Relation	0..＊	＊	
+184	6	Place	PlaceArtifacts	null	null	
+185	2	Place	PlaceArtifacts	null	null	
+186	4	Place	PlaceArtifacts	null	null	
+187	2	Place	PlaceArtifacts	null	null	
+188	6	Place	PlaceArtifacts	null	null	
+189	3	Place	PlaceArtifacts	null	null	
+190	3	Place	PlaceArtifacts	null	null	
+191	5	Place	PlaceArtifacts	null	null	
+192	5	Place	PlaceArtifacts	null	null	
+193	4	Place	PlaceArtifacts	null	null	
+194	3	Place	PlaceArtifacts	null	null	
+195	4	Place	PlaceArtifacts	null	null	
+196	7	Place	PlaceArtifacts	null	null	
+197	1	Place	PlaceArtifacts	null	null	
+198	11	Place	PlaceArtifacts	null	null	
+199	3	Place	PlaceArtifacts	null	null	
+200	71	Place	PlaceArtifacts	null	null	
+201	1	Place	PlaceArtifacts	null	null	
+202	1	Place	PlaceArtifacts	null	null	
+203	7	Place	PlaceArtifacts	null	null	
+204	3	Place	PlaceArtifacts	null	null	
+205	1	Place	PlaceArtifacts	null	null	
+206	1	Place	PlaceArtifacts	null	null	
+207	2	Place	PlaceArtifacts	null	null	
+208	2	Place	PlaceArtifacts	null	null	
+209	1	Place	PlaceArtifacts	null	null	
+210	1	Place	PlaceArtifacts	null	null	
+211	1	Place	PlaceArtifacts	null	null	
+212	3	Place	PlaceArtifacts	null	null	
+213	7	Place	PlaceArtifacts	null	null	
+214	5	Place	PlaceArtifacts	null	null	
+215	1	Place	PlaceArtifacts	null	null	
+216	1	Place	PlaceArtifacts	null	null	
+217	59	Place	PlaceArtifacts	null	null	
+218	11	Place	PlaceArtifacts	null	null	
+219	5	Place	PlaceArtifacts	null	null	
+220	1	Place	PlaceArtifacts	null	null	
+221	1	Place	PlaceArtifacts	null	null	
+222	9	Edit	ClassName	プロジェクト	担当	
+223	16	Edit	Attribute	-プロジェクトID	開発者	
+224	15	RemoveArtifacts	Attribute	-開発者		
+225	4	RemoveArtifacts	Attribute	-プロジェクト名		
+226	9	RemoveArtifacts	Attribute	-担当部署		
+227	1	Place	PlaceArtifacts	null	null	
+228	15	Create	Attribute	-attribute : String	責任者	
+229	6	Create	Attribute	-attribute : String	開発者	
+230	9	Create	Attribute	-attribute : String	テスター	
+231	12	Create	Attribute	-attribute : String	予備人員	
+232	7	Place	PlaceArtifacts	null	null	
+233	10	Edit	Attribute	-予備人員	テスター	
+234	7	Edit	Attribute	-テスター	デザイン	
+235	17	Place	PlaceArtifacts	null	null	
+236	1	Place	PlaceArtifacts	null	null	
+237	4	RemoveArtifacts	Attribute	-デザイン		
+238	5	RemoveArtifacts	Attribute	-テスター		
+239	13	Edit	Attribute	-責任者	社員ID	
+240	5	RemoveArtifacts	Attribute	-開発者		
+241	15	Create	Attribute	-attribute : String	役割名	
+242	4	Place	PlaceArtifacts	null	null	
+243	5	RemoveArtifacts	RemoveArtifacts	null	null	
+244	3	Place	PlaceArtifacts	null	null	
+245	4	Place	PlaceArtifacts	null	null	
+246	2	Create	ClassRelationLinkArtifact[39141]	null	0,0	
+247	6	Create	Relation	undefined	1..*	
+248	3	Create	Relation	undefined	1	
+249	8	Create	Relation	No Name	作成	
+250	2	Place	PlaceArtifacts	null	null	
+251	6	Create	ClassRelationLinkArtifact[39404]	null	0,0	
+252	3	Place	PlaceArtifacts	null	null	
+253	4	Place	PlaceArtifacts	null	null	
+254	7	Place	PlaceArtifacts	null	null	
+255	5	Create	Relation	No Name	担当	
+256	8	Edit	Relation	担当	役割	
+257	4	Place	PlaceArtifacts	null	null	
+258	5	Edit	ClassName	CopyOfプロジェクト	プロジェクト	
+259	21	Place	PlaceArtifacts	null	null	
+260	5	Place	PlaceArtifacts	null	null	
+261	3	Place	PlaceArtifacts	null	null	
+262	11	Create	Relation	undefined	1	
+263	9	Create	Relation	undefined	1..*	
+264	3	Place	PlaceArtifacts	null	null	
+265	2	Place	PlaceArtifacts	null	null	
+266	2	Save	Save	null	null	
+267	2	Submit	Submit	null	null	1	成果物を作るのに、プロジェクトが必要で
+プロジェクトを構成するのに部署や掛け持ち社員が必要で
+部署を構成するのには社員が必要
+という考えで上から「成果物～部署・社員」にしました。
+
+268	246	Place	PlaceArtifacts	null	null	
+269	4	Save	Save	null	null	
+270	1	Submit	Submit	null	null	2	成果物を作るのにはプロジェクトが。
+プロジェクトを作るのには部署・社員が必要
+という考えで上から「成果物」「部署・社員」にしました。
+この形だと、部署・社員・担当の「1..＊」「＊」などがかぶってしまい調整が難しかったので
+任意の場所に動かせるようにしていただけると
+さらに使いやすくなるかと思います。
+
+36:1145347-------------------------------
+1	0	Start	Start	null	null	
+2	181	Place	PlaceArtifacts	null	null	
+3	3	Place	PlaceArtifacts	null	null	
+4	41	Place	PlaceArtifacts	null	null	
+5	29	Create	ClassName	Class3	部署	
+6	42	Create	Attribute	-attribute : String	部署名	
+7	5	Place	PlaceArtifacts	null	null	
+8	0	Place	PlaceArtifacts	null	null	
+9	6	Place	PlaceArtifacts	null	null	
+10	16	Place	PlaceArtifacts	null	null	
+11	16	Create	Attribute	-attribute : String	部署ID	
+12	46	Create	ClassName	Class2	社員	
+13	27	Create	Attribute	-attribute : String	社員ID	
+14	7	Place	PlaceArtifacts	null	null	
+15	18	Create	Attribute	-attribute : String	社員名	
+16	14	Place	PlaceArtifacts	null	null	
+17	8	Create	ClassRelationLinkArtifact[1069]	null	0,0	
+18	2	Place	PlaceArtifacts	null	null	
+19	0	Place	PlaceArtifacts	null	null	
+20	3	Place	PlaceArtifacts	null	null	
+21	9	Place	PlaceArtifacts	null	null	
+22	2	Place	PlaceArtifacts	null	null	
+23	2	Place	PlaceArtifacts	null	null	
+24	5	Place	PlaceArtifacts	null	null	
+25	109	Edit	Relation	{union}	１	
+26	24	RemoveArtifacts	Relation	１		
+27	4	RemoveArtifacts	RemoveArtifacts	null	null	
+28	9	Create	ClassRelationLinkArtifact[2090]	null	0,0	
+29	2	Place	PlaceArtifacts	null	null	
+30	1	Place	PlaceArtifacts	null	null	
+31	19	RemoveArtifacts	RemoveArtifacts	null	null	
+32	4	Create	ClassRelationLinkArtifact[2401]	null	0,0	
+33	4	Place	PlaceArtifacts	null	null	
+34	1	Place	PlaceArtifacts	null	null	
+35	1	Place	PlaceArtifacts	null	null	
+36	10	RemoveArtifacts	RemoveArtifacts	null	null	
+37	6	Create	ClassRelationLinkArtifact[2880]	null	0,0	
+38	2	Place	PlaceArtifacts	null	null	
+39	0	Place	PlaceArtifacts	null	null	
+40	1	Place	PlaceArtifacts	null	null	
+41	1	Place	PlaceArtifacts	null	null	
+42	53	Create	Relation	undefined	１．＊	
+43	8	Create	Relation	undefined	１	
+44	14	Place	PlaceArtifacts	null	null	
+45	74	Create	ClassName	Class4	プロジェクト	
+46	58	Place	PlaceArtifacts	null	null	
+47	4	RemoveArtifacts	RemoveArtifacts	null	null	
+48	148	Create	Attribute	-attribute : String	プロジェクト名	
+49	33	Create	Relation	No Name	部署に所属	
+50	33	Place	PlaceArtifacts	null	null	
+51	6	Create	ClassRelationLinkArtifact[4128]	null	0,0	
+52	2	Place	PlaceArtifacts	null	null	
+53	5	Place	PlaceArtifacts	null	null	
+54	58	RemoveArtifacts	Relation	No Name		
+55	0	Place	PlaceArtifacts	null	null	
+56	20	Create	ClassRelationLinkArtifact[4686]	null	0,0	
+57	3	Place	PlaceArtifacts	null	null	
+58	37	Create	Relation	No Name	プロジェクト管理部署が管理	
+59	7	Place	PlaceArtifacts	null	null	
+60	2	RemoveArtifacts	RemoveArtifacts	null	null	
+61	4	Place	PlaceArtifacts	null	null	
+62	2	RemoveArtifacts	RemoveArtifacts	null	null	
+63	46	Create	Relation	undefined	１	
+64	4	Place	PlaceArtifacts	null	null	
+65	38	Create	Relation	undefined	１	
+66	13	Place	PlaceArtifacts	null	null	
+67	17	Edit	Relation	0..*	１	
+68	9	RemoveArtifacts	RemoveArtifacts	null	null	
+69	3	Place	PlaceArtifacts	null	null	
+70	2	Place	PlaceArtifacts	null	null	
+71	0	Place	PlaceArtifacts	null	null	
+72	103	Edit	Relation	１	＊	
+73	9	Place	PlaceArtifacts	null	null	
+74	68	Place	PlaceArtifacts	null	null	
+75	5	Place	PlaceArtifacts	null	null	
+76	17	Create	ClassRelationLinkArtifact[7239]	null	0,0	
+77	2	Place	PlaceArtifacts	null	null	
+78	32	Create	ClassName	Class8	プロジェクト人員	
+79	4	Place	PlaceArtifacts	null	null	
+80	24	Place	PlaceArtifacts	null	null	
+81	1	Place	PlaceArtifacts	null	null	
+82	3	Place	PlaceArtifacts	null	null	
+83	10	Create	ClassName	Class9	成果物	
+84	58	Place	PlaceArtifacts	null	null	
+85	3	Place	PlaceArtifacts	null	null	
+86	29	Create	Attribute	-attribute : String	役割	
+87	5	RemoveArtifacts	RemoveArtifacts	null	null	
+88	2	Place	PlaceArtifacts	null	null	
+89	23	RemoveArtifacts	RemoveArtifacts	null	null	
+90	2	RemoveArtifacts	RemoveArtifacts	null	null	
+91	29	Create	Attribute	-attribute : String	成果物名	
+92	4	Place	PlaceArtifacts	null	null	
+93	14	Place	PlaceArtifacts	null	null	
+94	7	Difficult	Difficult	null	null	
+95	0	Difficult	Difficult	null	null	
+96	0	Difficult	Difficult	null	null	
+97	0	Difficult	Difficult	null	null	
+98	0	Difficult	Difficult	null	null	
+99	1	Difficult	Difficult	null	null	
+100	28	Create	ClassRelationLinkArtifact[9069]	null	0,0	
+101	2	Place	PlaceArtifacts	null	null	
+102	3	Place	PlaceArtifacts	null	null	
+103	5	Place	PlaceArtifacts	null	null	
+104	4	Place	PlaceArtifacts	null	null	
+105	7	Place	PlaceArtifacts	null	null	
+106	2	RemoveArtifacts	RemoveArtifacts	null	null	1	各プロジェクトに対し、開発者、マネージャ、テスター予備人員や改版の管理などを担当するということで、担当の項目を追加した。
+
+見やすく調整
+
+どのように作ればいいか考えるのが難しかった。
+
+
+まだ途中です。
+107	43	Create	Relation	No Name	成果物をプロジェクトで管理	
+108	4	Place	PlaceArtifacts	null	null	
+109	16	Place	PlaceArtifacts	null	null	
+110	2	RemoveArtifacts	RemoveArtifacts	null	null	
+111	60	Create	Relation	undefined	０．１	
+112	15	Edit	Relation	１．＊	０．１	
+113	42	Create	Relation	undefined	１	
+114	11	Save	Save	null	null	
+115	37	Create	ClassRelationLinkArtifact[10635]	null	0,0	
+116	6	RemoveArtifacts	RemoveArtifacts	null	null	
+117	26	Submit	Submit	null	null	
+
+37:1145407-------------------------------
+1	0	Start	Start	null	null	
+2	231	Difficult	Difficult	null	null	
+3	26	Difficult	Difficult	null	null	
+4	84	Place	PlaceArtifacts	null	null	
+5	16	Create	ClassName	Class3	社員ID	
+6	36	Create	Attribute	-attribute : String	社員名	
+7	153	RemoveArtifacts	Attribute	-attribute : String		
+8	24	Place	PlaceArtifacts	null	null	
+9	8	Place	PlaceArtifacts	null	null	
+10	1	Place	PlaceArtifacts	null	null	
+11	21	Create	ClassRelationLinkArtifact[2605]	null	0,0	
+12	9	Create	Relation	undefined	１	
+13	125	Edit	ClassName	社員ID	社員	
+14	8	Edit	Attribute	-社員名	-社員ID	
+15	18	Create	Attribute	-attribute : String	社員名	
+16	178	Create	ClassName	Class4	部署	
+17	19	Create	Attribute	-attribute : String	部署ID	
+18	3	Create	ClassRelationLinkArtifact[3006]	null	0,0	
+19	9	RemoveArtifacts	RemoveArtifacts	null	null	
+20	1	Place	PlaceArtifacts	null	null	
+21	16	Place	PlaceArtifacts	null	null	
+22	10	Place	PlaceArtifacts	null	null	
+23	11	Create	Attribute	-attribute : String	部署名	
+24	3	RemoveArtifacts	Attribute	-attribute  : String		
+25	6	Place	PlaceArtifacts	null	null	
+26	14	Create	ClassName	Class5	プロジェクト	
+27	11	Create	Attribute	-attribute : String	プロジェクト名	
+28	217	Place	PlaceArtifacts	null	null	
+29	5	Place	PlaceArtifacts	null	null	
+30	27	Edit	Relation	１	1..*	
+31	5	Place	PlaceArtifacts	null	null	
+32	6	Create	Relation	undefined	1..*	
+33	100	Edit	Relation	1..*	0..*	
+34	10	Place	PlaceArtifacts	null	null	
+35	16	Create	ClassRelationLinkArtifact[5882]	null	0,0	
+36	90	RemoveArtifacts	Relation	undefined		
+37	30	Create	Relation	undefined	1	
+38	20	Place	PlaceArtifacts	null	null	
+39	14	Create	Relation	undefined	0..1	
+40	6	Create	ClassRelationLinkArtifact[6218]	null	0,0	
+41	4	Place	PlaceArtifacts	null	null	
+42	4	Place	PlaceArtifacts	null	null	
+43	3	Place	PlaceArtifacts	null	null	
+44	7	RemoveArtifacts	RemoveArtifacts	null	null	
+45	1	Place	PlaceArtifacts	null	null	
+46	7	Create	ClassRelationLinkArtifact[7121]	null	0,0	
+47	3	Place	PlaceArtifacts	null	null	
+48	6	RemoveArtifacts	RemoveArtifacts	null	null	
+49	1	Place	PlaceArtifacts	null	null	
+50	6	Create	ClassRelationLinkArtifact[7568]	null	0,0	
+51	22	RemoveArtifacts	RemoveArtifacts	null	null	
+52	5	RemoveArtifacts	RemoveArtifacts	null	null	
+53	5	Create	ClassRelationLinkArtifact[7831]	null	0,0	
+54	6	Place	PlaceArtifacts	null	null	
+55	1	Place	PlaceArtifacts	null	null	
+56	1	Place	PlaceArtifacts	null	null	
+57	1	Place	PlaceArtifacts	null	null	
+58	5	RemoveArtifacts	RemoveArtifacts	null	null	
+59	6	Create	ClassRelationLinkArtifact[8438]	null	0,0	
+60	13	RemoveArtifacts	RemoveArtifacts	null	null	
+61	14	Create	ClassRelationLinkArtifact[8724]	null	0,0	
+62	5	Create	ClassRelationLinkArtifact[8820]	null	0,0	
+63	8	RemoveArtifacts	RemoveArtifacts	null	null	
+64	5	Create	ClassRelationLinkArtifact[9140]	null	0,0	
+65	6	Place	PlaceArtifacts	null	null	
+66	2	Place	PlaceArtifacts	null	null	
+67	1	Place	PlaceArtifacts	null	null	
+68	1	Place	PlaceArtifacts	null	null	
+69	1	Place	PlaceArtifacts	null	null	
+70	1	Place	PlaceArtifacts	null	null	
+71	2	Place	PlaceArtifacts	null	null	
+72	66	Create	Relation	undefined	0..*	
+73	20	Create	Relation	undefined	0..1	
+74	6	Place	PlaceArtifacts	null	null	
+75	3	Place	PlaceArtifacts	null	null	
+76	1	Place	PlaceArtifacts	null	null	
+77	3	Place	PlaceArtifacts	null	null	
+78	1	Place	PlaceArtifacts	null	null	
+79	11	Create	Relation	undefined	0..*	
+80	65	Place	PlaceArtifacts	null	null	
+81	2	Place	PlaceArtifacts	null	null	
+82	1	Place	PlaceArtifacts	null	null	
+83	1	Place	PlaceArtifacts	null	null	
+84	1	Place	PlaceArtifacts	null	null	
+85	2	Place	PlaceArtifacts	null	null	
+86	2	Place	PlaceArtifacts	null	null	
+87	17	Create	ClassName	Class6	成果物	
+88	10	Create	Attribute	-attribute : String	成果物名	
+89	6	Place	PlaceArtifacts	null	null	
+90	47	Create	ClassRelationLinkArtifact[12936]	null	0,0	
+91	8	Create	Relation	undefined	１	
+92	16	Create	Relation	undefined	1..:	
+93	6	Edit	Relation	1..:	1..*	
+94	26	Create	ClassRelationLinkArtifact[13104]	null	0,0	
+95	20	Create	Relation	undefined	1	
+96	21	Create	Relation	undefined	0..*	
+97	11	Place	PlaceArtifacts	null	null	
+98	37	Create	Relation	undefined	1..*	
+99	31	Create	Relation	No Name	←作成	
+100	38	Create	Relation	No Name	所属→	
+101	4	Edit	Relation	1..*	1	
+102	28	Create	Relation	No Name	管理	
+103	7	Edit	Relation	管理	↑管理	
+104	30	Create	Relation	No Name	所属↑	
+105	15	Create	Relation	No Name	責任者↑	
+106	22	Edit	Relation	責任者↑	　　管理↑	
+107	7	Edit	Relation	　　管理↑	　　　　　管理↑	
+108	6	Edit	Relation	↑管理	↑管理　　　　　	
+109	5	Edit	Relation	所属↑	　　　所属↑	
+110	5	Edit	Relation	　　　　　管理↑	　　　　管理↑	
+111	10	Edit	Relation	↑管理　　　　　	↑管理　　　　	
+112	54	Create	Attribute	-attribute : String	管理者	
+113	10	Place	PlaceArtifacts	null	null	
+114	15	Create	Attribute	-attribute : String	主担当部署	
+115	21	Create	Attribute	-attribute : String	開発者	
+116	4	Place	PlaceArtifacts	null	null	
+117	5	Create	Attribute	-attribute : String	マネージャー	
+118	8	Create	Attribute	-attribute : String	テスター	
+119	13	Create	Attribute	-attribute : String	予備人員	1	プロジェクトにはいろんな役割があった
+
+120	60	Create	Attribute	-attribute : String	プロジェクト名	2	どのプロジェクトで作成されたかの管理が必要だった
+121	13	Place	PlaceArtifacts	null	null	
+122	1	RemoveArtifacts	Attribute	-管理者		
+123	9	Create	Attribute	-attribute : String	責任者	
+124	175	Save	Save	null	null	
+125	30	RemoveArtifacts	Attribute	-attribute : String		
+126	16	Save	Save	null	null	
+127	35	Save	Save	null	null	
+128	2	Submit	Submit	null	null	
+129	3	Submit	Submit	null	null	3	完成したと思う
+
+38:1145431-------------------------------
+1	0	Start	Start	null	null	1	よくわからないので、適当に文章から実体になりそうなものが出てきたら作って、属性になりそうなものが出てきたら加える
+2	295	Place	PlaceArtifacts	null	null	
+3	8	Create	ClassName	Class8	部署	2	部署が存在するという言葉から部署という実体を作成
+4	41	Create	Attribute	-attribute : String	部署名	3	部署名があると書いてあるので属性に追加
+5	8	Create	Attribute	-attribute : String	部長ID	4	部長IDがあると書いてあるので追加
+6	14	Place	PlaceArtifacts	null	null	
+7	5	Create	ClassName	Class9	社員	5	社員が存在すると書いてあるので作成
+
+8	6	Save	Save	null	null	6	ひとつ実体が完成したら保存しようと思っていたが、忘れていたので保存
+9	12	Create	Attribute	-attribute : String	社員ID	7	社員IDがあると書いてあるので追加
+10	13	Create	Attribute	-attribute : String	名前	8	名前があると書いてあるので追加
+11	4	Save	Save	null	null	9	実体が完成したと思ったので保存
+12	27	Place	PlaceArtifacts	null	null	
+13	6	Create	ClassName	Class10	プロジェクト	10	プロジェクトがあると書いてあるので作成
+14	11	Create	Attribute	-attribute : String	プロジェクト名	11	プロジェクト名があったほうがいいと思ったので追加
+15	2	Save	Save	null	null	12	実体が完成したと思ったので保存
+16	17	Create	Attribute	-attribute : String	担当部署	13	完成したと思っていたが、担当部署があるので追加
+(ER図の場合属性がかぶってはいけない？ってのは後で処理をしたほうが頭が整理されると自分では思っているので何も考えずに追加しました。)
+17	2	Save	Save	null	null	14	Taskを見るために保存
+18	35	Create	Attribute	-attribute : String	社員名	
+19	2	Save	Save	null	null	15	Taskを見るので保存
+20	73	Create	Attribute	-attribute : String	社員の役割	16	役割が存在すると書いてあるので追加
+21	61	Create	Attribute	-attribute : String	成果物名	17	成果物が存在すると書いてあるので追加
+22	3	Save	Save	null	null	18	完成したと思ったので保存
+23	13	Place	PlaceArtifacts	null	null	
+24	2	Place	PlaceArtifacts	null	null	
+25	0	Place	PlaceArtifacts	null	null	
+26	9	RemoveArtifacts	Attribute	-成果物名		19	成果物名はほかの属性？にしたほうがいいと思ったので削除
+
+27	2	Save	Save	null	null	20	変更をしたので保存
+28	4	Place	PlaceArtifacts	null	null	
+29	1	Place	PlaceArtifacts	null	null	
+30	1	Place	PlaceArtifacts	null	null	
+31	0	Place	PlaceArtifacts	null	null	
+32	1	Place	PlaceArtifacts	null	null	
+33	5	Create	ClassName	Class11	成果物	21	成果物があると書いてあったので作成
+
+34	9	Create	Attribute	-attribute : String	成果物名	22	成果物名が必要だと思い追加
+35	9	Create	Attribute	-attribute : String	担当者	23	担当者が存在すると書いてあるので追加
+36	13	Create	Attribute	-attribute : String	編集担当	24	編集担当が存在すると書いてあるので追加
+37	1	Save	Save	null	null	25	完成したと思ったので保存
+38	21	Edit	Attribute	-担当者	責任者	26	担当者より責任者のほうがいいと思ったので変更
+39	16	Edit	Attribute	-編集担当	管理担当	27	編集担当より管理担当のほうがいいと思ったので変更
+40	2	Save	Save	null	null	28	変更したので保存
+41	48	Place	PlaceArtifacts	null	null	29	微調整
+42	2	Place	PlaceArtifacts	null	null	30	微調整
+43	6	Place	PlaceArtifacts	null	null	31	微調整
+44	10	Create	ClassRelationLinkArtifact[18774]	null	0,0	32	関連を作成
+45	9	Place	PlaceArtifacts	null	null	33	間隔が狭すぎると思ったので移動
+46	2	Place	PlaceArtifacts	null	null	34	もっと伸ばすかと思ったので移動
+47	2	Place	PlaceArtifacts	null	null	35	上に同じく
+48	1	Place	PlaceArtifacts	null	null	36	上に同じく
+49	1	Place	PlaceArtifacts	null	null	
+50	1	Save	Save	null	null	
+51	126	Create	Relation	No Name	所属する	37	所属するが適切かと思ったので名前変更
+52	75	Save	Save	null	null	38	変更を加えたので保存
+53	40	Create	Relation	undefined	1..＊	
+54	19	Create	Relation	undefined	1..＊	
+55	60	Place	PlaceArtifacts	null	null	39	どこがいいか悩んでる
+56	4	Place	PlaceArtifacts	null	null	40	ここがいいと思い停止
+中心にしたのは、部署と社員の２つと関連を引く予定なので真ん中に配置
+57	19	Place	PlaceArtifacts	null	null	41	間隔があきすぎてると思ったので調整
+58	1	Place	PlaceArtifacts	null	null	42	微調整
+59	2	Place	PlaceArtifacts	null	null	43	微調整
+60	5	Create	ClassRelationLinkArtifact[19874]	null	0,0	
+61	8	Create	Relation	No Name	担当する	
+62	6	RemoveArtifacts	Attribute	-担当部署		44	部署と関連されるので担当部署を削除した
+63	57	Place	PlaceArtifacts	null	null	
+64	1	Save	Save	null	null	
+65	5	Place	PlaceArtifacts	null	null	
+66	28	Create	ClassName	Class12	役割	
+67	12	Create	Attribute	-attribute : String	プロジェクトの役割	
+68	12	RemoveArtifacts	Attribute	-社員名		
+69	5	RemoveArtifacts	Attribute	-社員の役割		
+70	18	Place	PlaceArtifacts	null	null	
+71	7	Create	ClassRelationLinkArtifact[20630]	null	0,0	
+72	4	Create	ClassRelationLinkArtifact[20730]	null	0,0	
+73	2	Place	PlaceArtifacts	null	null	
+74	2	Place	PlaceArtifacts	null	null	
+75	29	Create	Relation	undefined	1..＊	
+76	16	Create	Relation	undefined	1	
+77	3	Place	PlaceArtifacts	null	null	
+78	2	Place	PlaceArtifacts	null	null	
+79	2	Place	PlaceArtifacts	null	null	
+80	1	Place	PlaceArtifacts	null	null	
+81	2	Place	PlaceArtifacts	null	null	
+82	2	Place	PlaceArtifacts	null	null	
+83	1	Place	PlaceArtifacts	null	null	
+84	1	Place	PlaceArtifacts	null	null	
+85	1	Save	Save	null	null	
+86	3	Place	PlaceArtifacts	null	null	
+87	13	Create	Relation	No Name	担当する	
+88	29	Create	Relation	undefined	1	
+89	7	Create	Relation	undefined	1	
+90	25	Create	Relation	undefined	1	
+91	5	Create	Relation	undefined	1	
+92	15	Create	Relation	No Name	所属する	
+93	7	Place	PlaceArtifacts	null	null	
+94	13	Place	PlaceArtifacts	null	null	
+95	3	Create	ClassRelationLinkArtifact[23372]	null	0,0	
+96	3	Place	PlaceArtifacts	null	null	
+97	4	Place	PlaceArtifacts	null	null	
+98	3	Save	Save	null	null	
+99	14	Create	Relation	No Name	作成する	
+100	8	Create	Relation	undefined	1	
+101	10	Create	Relation	undefined	1..＊	
+102	2	Save	Save	null	null	
+103	3	Place	PlaceArtifacts	null	null	
+104	1	Place	PlaceArtifacts	null	null	
+105	4	Place	PlaceArtifacts	null	null	
+106	2	Place	PlaceArtifacts	null	null	
+107	3	Place	PlaceArtifacts	null	null	
+108	3	Place	PlaceArtifacts	null	null	
+109	4	Place	PlaceArtifacts	null	null	
+110	3	Place	PlaceArtifacts	null	null	
+111	3	Place	PlaceArtifacts	null	null	
+112	3	Place	PlaceArtifacts	null	null	
+113	3	Place	PlaceArtifacts	null	null	
+114	10	Save	Save	null	null	
+115	45	Edit	Relation	担当する	管理する	45	担当するよりは管理するのほうが適切だと思ったので変更した
+116	6	Save	Save	null	null	
+117	170	Save	Save	null	null	
+118	0	Save	Save	null	null	
+119	5	Save	Save	null	null	
+120	2	Submit	Submit	null	null	46	自分の中で完成したと思ったので提出
+121	2	Submit	Submit	null	null	47	提出されたかわからなかったので、もう一度提出をクリック
+こういう仕様だと判断したためこれでやめる
+
+39:1145444-------------------------------
+1	0	Start	Start	null	null	
+2	249	Place	PlaceArtifacts	null	null	
+3	445	Place	PlaceArtifacts	null	null	
+4	6	Place	PlaceArtifacts	null	null	
+5	5	Create	ClassName	Class6	部署	
+6	14	RemoveArtifacts	Attribute	-attribute : String		
+7	41	Create	Attribute	-attribute : String	部署名	
+8	20	Create	Attribute	-attribute : String	部署ID	
+9	13	Place	PlaceArtifacts	null	null	
+10	13	Create	ClassName	Class7	社員名	
+11	5	Edit	ClassName	社員名	社員	1	誤字を訂正
+12	11	Create	Attribute	-attribute : String	社員名	
+13	10	Create	Attribute	-attribute : String	社員ID	
+14	120	Place	PlaceArtifacts	null	null	
+15	11	Create	ClassName	Class8	プロジェクト	
+16	13	Place	PlaceArtifacts	null	null	
+17	6	Create	ClassName	Class9	成果物	
+18	4	Place	PlaceArtifacts	null	null	
+19	83	Create	Attribute	-attribute : String	役割	
+20	7	Create	Attribute	-attribute : String	プロジェクト名	
+21	87	RemoveArtifacts	RemoveArtifacts	null	null	
+22	26	Create	ClassRelationLinkArtifact[4504]	null	0,0	
+23	12	Create	Relation	undefined	1	
+24	2	Create	Relation	undefined	1	
+25	12	Create	Relation	No Name	所属	
+26	59	Create	ClassRelationLinkArtifact[5542]	null	0,0	
+27	51	RemoveArtifacts	Relation	undefined		
+28	9	Create	ClassRelationLinkArtifact[5694]	null	0,0	
+29	95	Create	Relation	No Name	プロジェクト参加	
+30	58	Create	Relation	undefined	1..*	
+31	21	Create	Relation	undefined	1..*	
+32	14	RemoveArtifacts	Relation	undefined		
+33	5	RemoveArtifacts	RemoveArtifacts	null	null	
+34	4	RemoveArtifacts	RemoveArtifacts	null	null	
+35	4	Place	PlaceArtifacts	null	null	
+36	3	Place	PlaceArtifacts	null	null	
+37	4	Place	PlaceArtifacts	null	null	
+38	5	Create	ClassRelationLinkArtifact[6107]	null	0,0	
+39	6	Create	ClassRelationLinkArtifact[6209]	null	0,0	
+40	29	Create	Relation	No Name	参加	
+41	9	Create	Relation	undefined	1..*	
+42	9	RemoveArtifacts	RemoveArtifacts	null	null	
+43	5	Place	PlaceArtifacts	null	null	
+44	3	Create	ClassRelationLinkArtifact[6435]	null	0,0	
+45	16	RemoveArtifacts	RemoveArtifacts	null	null	
+46	10	Place	PlaceArtifacts	null	null	
+47	2	Create	ClassRelationLinkArtifact[6677]	null	0,0	
+48	16	Create	Relation	undefined	1..*	
+49	8	Create	Relation	No Name	作成	
+50	11	Edit	Relation	1..*	1	
+51	9	Create	Relation	undefined	1..*	
+52	116	Create	Relation	undefined	1..*	
+53	31	Edit	Relation	1..*	1	
+54	6	Edit	Relation	1	1..*	
+55	92	Place	PlaceArtifacts	null	null	
+56	21	Create	ClassName	Class11	成果物管理	
+57	23	Create	ClassRelationLinkArtifact[7188]	null	0,0	
+58	23	Create	Relation	No Name	編集、改版	
+59	6	Create	Relation	undefined	1	
+60	6	Create	Relation	undefined	1	2	成果物１つに対して管理者は１つと考えたため
+61	28	Create	Attribute	-attribute : String	管理者	
+62	134	Save	Save	null	null	
+63	2	Submit	Submit	null	null	
+64	602	Edit	Relation	1	1..*	3	管理者の視点から見たら成果物は複数あると思った為、訂正しました
+65	16	Save	Save	null	null	
+66	2	Submit	Submit	null	null	
+67	72	Difficult	Difficult	null	null	
+68	0	Difficult	Difficult	null	null	
+69	0	Difficult	Difficult	null	null	
+70	0	Difficult	Difficult	null	null	
+71	0	Difficult	Difficult	null	null	
+72	0	Difficult	Difficult	null	null	
+73	1	Difficult	Difficult	null	null	
+74	0	Difficult	Difficult	null	null	
+75	0	Difficult	Difficult	null	null	
+76	0	Difficult	Difficult	null	null	4	完成しました。
+
+40:1145445-------------------------------
+1	0	Start	Start	null	null	1	start
+2	184	Place	PlaceArtifacts	null	null	
+3	21	Create	ClassName	Class2	部署	
+4	13	Create	Attribute	-attribute : String	部署名	
+5	7	Place	PlaceArtifacts	null	null	
+6	14	Create	Attribute	-attribute : String	部長ID	
+7	34	Place	PlaceArtifacts	null	null	
+8	11	Create	ClassName	Class3	社員	
+9	1	Place	PlaceArtifacts	null	null	
+10	6	Create	Attribute	-attribute : String	社員名	
+11	8	Create	Attribute	-attribute : String	社員ID	
+12	60	Place	PlaceArtifacts	null	null	
+13	12	Create	ClassName	Class4	プロジェクト	
+14	8	Create	Attribute	-attribute : String	プロジェクト名	
+15	13	Place	PlaceArtifacts	null	null	
+16	10	Create	ClassName	Class5	プロジェクトの役割	
+17	72	Place	PlaceArtifacts	null	null	
+18	10	Create	ClassName	Class6	成果物	
+19	11	Create	Attribute	-attribute : String	成果物名	
+20	17	Create	Attribute	-attribute : String	開発者	
+21	12	Create	Attribute	-attribute : String	マネージャー	
+22	6	Create	Attribute	-attribute : String	テスター	
+23	18	Create	Attribute	-attribute : String	予備人員	
+24	175	Place	PlaceArtifacts	null	null	
+25	9	Create	ClassName	Class7	責任者	
+26	19	Edit	ClassName	責任者	成果物責任者	
+27	0	Place	PlaceArtifacts	null	null	
+28	5	RemoveArtifacts	Attribute	-attribute : String		
+29	11	Create	Attribute	-attribute : String	責任社名	
+30	9	Edit	Attribute	-責任社名	-責任者名	
+31	35	Save	Save	null	null	2	実体を大まかに
+
+32	321	Create	ClassRelationLinkArtifact[1253]	null	0,0	
+33	3	Place	PlaceArtifacts	null	null	
+34	3	Place	PlaceArtifacts	null	null	
+35	104	Create	Relation	undefined	1..*	
+36	54	Create	Relation	undefined	1..*	
+37	15	Edit	Relation	1..*	1	
+38	9	Create	Relation	No Name	所属	
+39	33	Create	ClassRelationLinkArtifact[1562]	null	0,0	
+40	4	Place	PlaceArtifacts	null	null	
+41	3	Place	PlaceArtifacts	null	null	
+42	2	Place	PlaceArtifacts	null	null	
+43	18	Place	PlaceArtifacts	null	null	
+44	1	Place	PlaceArtifacts	null	null	
+45	5	Place	PlaceArtifacts	null	null	
+46	17	Create	Relation	No Name	担当	
+47	24	Create	Relation	undefined	1..*	
+48	30	Edit	Relation	1..*	*	
+49	7	Create	Relation	undefined	1..*	
+50	4	Create	ClassRelationLinkArtifact[2247]	null	0,0	
+51	3	Place	PlaceArtifacts	null	null	
+52	1	Place	PlaceArtifacts	null	null	
+53	2	Place	PlaceArtifacts	null	null	
+54	76	Create	Relation	No Name	主担当	
+55	54	Create	Relation	undefined	1	
+56	11	Create	Relation	undefined	1	
+57	5	Place	PlaceArtifacts	null	null	
+58	41	Place	PlaceArtifacts	null	null	
+59	15	Place	PlaceArtifacts	null	null	
+60	2	Place	PlaceArtifacts	null	null	
+61	3	Create	ClassRelationLinkArtifact[3137]	null	0,0	
+62	5	Place	PlaceArtifacts	null	null	
+63	31	Create	Relation	undefined	1..*	
+64	4	Create	Relation	undefined	1	
+65	10	Create	Relation	No Name	成果	
+66	6	Place	PlaceArtifacts	null	null	
+67	8	Create	ClassRelationLinkArtifact[3475]	null	0,0	
+68	3	Place	PlaceArtifacts	null	null	
+69	10	Create	Relation	No Name	責任者	
+70	6	Place	PlaceArtifacts	null	null	
+71	13	Create	Relation	undefined	1	
+72	15	Create	Relation	undefined	1..*	
+73	4	Save	Save	null	null	
+74	31	Place	PlaceArtifacts	null	null	
+75	11	Create	ClassRelationLinkArtifact[3866]	null	0,0	
+76	13	Create	Relation	No Name	役割	
+77	21	Create	Relation	undefined	1	
+78	11	Create	Relation	undefined	1..*	
+79	4	Create	ClassRelationLinkArtifact[4075]	null	0,0	
+80	22	Create	Relation	No Name	担当	
+81	51	Create	Relation	undefined	1..*	
+82	14	Create	Relation	undefined	1..*	
+83	14	Place	PlaceArtifacts	null	null	
+84	3	Place	PlaceArtifacts	null	null	
+85	2	Place	PlaceArtifacts	null	null	
+86	8	Place	PlaceArtifacts	null	null	
+87	11	Place	PlaceArtifacts	null	null	
+88	3	Save	Save	null	null	
+89	17	RemoveArtifacts	RemoveArtifacts	null	null	
+90	103	Edit	Relation	1	*	
+91	17	Save	Save	null	null	
+92	42	Save	Save	null	null	
+93	411	Create	ClassRelationLinkArtifact[5990]	null	0,0	
+94	17	Create	Relation	undefined	1..*	
+95	7	Create	Relation	No Name	担当	
+96	27	Create	Relation	undefined	＊	
+97	3	Save	Save	null	null	3	関連
+
+41:1145446-------------------------------
+1	0	Start	Start	null	null	
+2	138	Place	PlaceArtifacts	null	null	
+3	8	Create	ClassName	Class7	部署	
+4	6	Place	PlaceArtifacts	null	null	
+5	5	Create	ClassName	Class8	社員	
+6	41	Create	Attribute	-attribute : String	部署名	
+7	14	RemoveArtifacts	Method	+method(parameter1 : String) : void		1	操作ミス
+8	13	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+9	11	Create	Method	+method(parameter1 : String) : void	+method(parameter1 : String) : void部長ID	
+10	7	RemoveArtifacts	Method	+method(parameter1  : String) : void部長ID		
+11	26	Create	Attribute	-attribute : String	部長ID	
+12	17	Create	Attribute	-attribute : String	社員ID	
+13	7	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+14	13	Create	Attribute	-attribute : String	社員名	
+15	8	Place	PlaceArtifacts	null	null	
+16	5	Create	ClassName	Class9	プロジェクト	
+17	10	Create	Attribute	-attribute : String	プロジェクト名	
+18	242	Difficult	Difficult	null	null	
+19	58	Place	PlaceArtifacts	null	null	
+20	7	Create	ClassName	Class10	成果物	
+21	6	Create	Attribute	-attribute : String	成果物名	
+22	47	Create	Attribute	-attribute : String	責任者	
+23	239	Create	Attribute	-attribute : String	所属部署	
+24	119	RemoveArtifacts	Attribute	-所属部署		2	いらないと判断
+25	28	Create	ClassRelationLinkArtifact[34448]	null	0,0	
+26	2	Place	PlaceArtifacts	null	null	
+27	21	Create	Relation	undefined	1.*	
+28	8	RemoveArtifacts	Relation	No Name		
+29	24	RemoveArtifacts	Relation	undefined		
+30	11	Create	Relation	undefined	1	
+31	4	Edit	Relation	1.*	1	
+32	9	Edit	Relation	1	*	
+33	6	Create	ClassRelationLinkArtifact[34757]	null	0,0	
+34	5	Create	ClassRelationLinkArtifact[34833]	null	0,0	
+35	5	Create	ClassRelationLinkArtifact[34972]	null	0,0	
+36	7	Place	PlaceArtifacts	null	null	
+37	1	Place	PlaceArtifacts	null	null	
+38	46	Place	PlaceArtifacts	null	null	
+39	9	Create	Relation	undefined	1	
+40	6	Create	Relation	undefined	*	
+41	2	Place	PlaceArtifacts	null	null	
+42	1	Place	PlaceArtifacts	null	null	
+43	4	Create	Relation	undefined	1	
+44	4	Place	PlaceArtifacts	null	null	
+45	4	Create	Relation	undefined	*	
+46	3	Place	PlaceArtifacts	null	null	
+47	1	Place	PlaceArtifacts	null	null	
+48	1	Place	PlaceArtifacts	null	null	
+49	3	Place	PlaceArtifacts	null	null	
+50	6	Create	Relation	undefined	*	
+51	3	Create	Relation	undefined	1	
+52	8	Place	PlaceArtifacts	null	null	
+53	209	Edit	Relation	1	*	
+54	5	Edit	Relation	1	*	
+55	254	Place	PlaceArtifacts	null	null	
+56	2	Place	PlaceArtifacts	null	null	
+57	2	Place	PlaceArtifacts	null	null	
+58	2	Place	PlaceArtifacts	null	null	
+59	4	Place	PlaceArtifacts	null	null	
+60	5	Place	PlaceArtifacts	null	null	
+61	2	Place	PlaceArtifacts	null	null	
+62	4	Place	PlaceArtifacts	null	null	
+63	13	Place	PlaceArtifacts	null	null	
+64	1	Place	PlaceArtifacts	null	null	
+65	1	Place	PlaceArtifacts	null	null	
+66	2	Place	PlaceArtifacts	null	null	
+67	1	Place	PlaceArtifacts	null	null	
+68	1	Place	PlaceArtifacts	null	null	
+69	3	Place	PlaceArtifacts	null	null	
+70	2	Place	PlaceArtifacts	null	null	
+71	1	Place	PlaceArtifacts	null	null	
+72	1	Place	PlaceArtifacts	null	null	
+73	1	Place	PlaceArtifacts	null	null	
+74	1	Place	PlaceArtifacts	null	null	
+75	1	Place	PlaceArtifacts	null	null	
+76	1	Place	PlaceArtifacts	null	null	
+77	2	Place	PlaceArtifacts	null	null	
+78	2	Place	PlaceArtifacts	null	null	
+79	95	Edit	Attribute	-責任者	-責任者ID	
+80	6	Place	PlaceArtifacts	null	null	
+81	478	Create	Attribute	-attribute : String	役割	
+82	6	Place	PlaceArtifacts	null	null	
+83	2	Place	PlaceArtifacts	null	null	
+84	609	Save	Save	null	null	
+85	5	Submit	Submit	null	null	
+
+42:1145451-------------------------------
+1	0	Start	Start	null	null	
+2	141	Place	PlaceArtifacts	null	null	
+3	6	Create	ClassName	Class5	部署	
+4	8	Create	Attribute	-attribute : String	部署名	
+5	13	Create	Attribute	-attribute : String	部長ID	
+6	4	Place	PlaceArtifacts	null	null	
+7	6	Create	ClassName	Class6	社員	
+8	12	Create	Attribute	-attribute : String	社員名	
+9	7	Place	PlaceArtifacts	null	null	
+10	6	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+11	16	Create	Attribute	-attribute : String	社員ID	
+12	116	Place	PlaceArtifacts	null	null	
+13	6	Create	ClassName	Class7	プロジェクト	
+14	10	Create	Attribute	-attribute : String	プロジェクト名	
+15	17	Create	Attribute	-attribute : String	担当部署	
+16	13	Edit	Attribute	-担当部署	-管理部署	
+17	20	Create	Attribute	-attribute : String	担当社員	
+18	123	Save	Save	null	null	
+19	3	Place	PlaceArtifacts	null	null	
+20	2	Place	PlaceArtifacts	null	null	
+21	1	Place	PlaceArtifacts	null	null	1	見やすいよう位置を調整
+22	2	Place	PlaceArtifacts	null	null	
+23	67	Create	Attribute	-attribute : String	担当社員	
+24	327	Place	PlaceArtifacts	null	null	
+25	5	Place	PlaceArtifacts	null	null	
+26	5	Create	ClassName	Class8	成果物	
+27	50	Create	Attribute	-attribute : String	対応プロジェクト	
+28	18	Create	Attribute	-attribute : String	責任者	
+29	16	Place	PlaceArtifacts	null	null	
+30	4	Create	ClassName	Class9	担当社員	
+31	11	Create	Attribute	-attribute : String	開発者	
+32	9	Create	Attribute	-attribute : String	マネージャ	
+33	14	Create	Attribute	-attribute : String	テスター	
+34	17	Create	Attribute	-attribute : String	予備人員	2	まずは必要であろうクラスを作っていく
+35	10	Place	PlaceArtifacts	null	null	
+36	3	Place	PlaceArtifacts	null	null	
+37	2	Place	PlaceArtifacts	null	null	
+38	3	Place	PlaceArtifacts	null	null	
+39	4	Place	PlaceArtifacts	null	null	
+40	2	Place	PlaceArtifacts	null	null	
+41	1	Save	Save	null	null	
+42	6	Place	PlaceArtifacts	null	null	3	再び位置を調整
+43	6	Create	ClassRelationLinkArtifact[5780]	null	0,0	
+44	11	RemoveArtifacts	RemoveArtifacts	null	null	4	ミスしたので取り消し
+
+45	10	Create	ClassRelationLinkArtifact[5924]	null	0,0	
+46	4	Place	PlaceArtifacts	null	null	
+47	21	Create	Relation	No Name	開発する	
+48	41	Place	PlaceArtifacts	null	null	
+49	3	RemoveArtifacts	RemoveArtifacts	null	null	5	ミスしたので取り消し
+
+50	142	Place	PlaceArtifacts	null	null	
+51	9	Create	ClassRelationLinkArtifact[6627]	null	0,0	
+52	8	Create	Relation	No Name	所属する	
+53	11	Place	PlaceArtifacts	null	null	
+54	2	Place	PlaceArtifacts	null	null	
+55	2	Place	PlaceArtifacts	null	null	
+56	58	Create	Relation	undefined	1,n	
+57	21	Create	Relation	undefined	0,n]	
+58	6	Edit	Relation	0,n]	0,n	
+59	4	Place	PlaceArtifacts	null	null	
+60	3	Create	Relation	undefined	1,n	
+61	5	Create	Relation	undefined	0,n	
+62	11	Place	PlaceArtifacts	null	null	
+63	8	Create	ClassRelationLinkArtifact[7439]	null	0,0	
+64	2	Place	PlaceArtifacts	null	null	
+65	3	Place	PlaceArtifacts	null	null	
+66	0	Place	PlaceArtifacts	null	null	
+67	15	Create	Relation	No Name	管理する	
+68	2	Place	PlaceArtifacts	null	null	
+69	2	Place	PlaceArtifacts	null	null	
+70	1	Place	PlaceArtifacts	null	null	
+71	1	Place	PlaceArtifacts	null	null	
+72	1	Place	PlaceArtifacts	null	null	
+73	3	Place	PlaceArtifacts	null	null	
+74	2	Place	PlaceArtifacts	null	null	
+75	3	Place	PlaceArtifacts	null	null	
+76	17	Create	Relation	undefined	1	
+77	9	Create	Relation	undefined	1	
+78	3	Place	PlaceArtifacts	null	null	
+79	2	Place	PlaceArtifacts	null	null	
+80	2	Place	PlaceArtifacts	null	null	
+81	1	Place	PlaceArtifacts	null	null	
+82	4	Place	PlaceArtifacts	null	null	
+83	5	Place	PlaceArtifacts	null	null	
+84	1	Place	PlaceArtifacts	null	null	
+85	3	Place	PlaceArtifacts	null	null	
+86	5	Create	ClassRelationLinkArtifact[9693]	null	0,0	
+87	12	Create	Relation	No Name	担当する	
+88	1	Place	PlaceArtifacts	null	null	
+89	1	Place	PlaceArtifacts	null	null	
+90	6	Place	PlaceArtifacts	null	null	
+91	1	Place	PlaceArtifacts	null	null	
+92	10	Create	Relation	undefined	1,n	
+93	4	Create	Relation	undefined	1,n	
+94	77	Place	PlaceArtifacts	null	null	
+95	2	Place	PlaceArtifacts	null	null	
+96	1	Place	PlaceArtifacts	null	null	
+97	1	Place	PlaceArtifacts	null	null	
+98	1	Place	PlaceArtifacts	null	null	
+99	2	Place	PlaceArtifacts	null	null	
+100	4	Place	PlaceArtifacts	null	null	
+101	1	Place	PlaceArtifacts	null	null	
+102	8	RemoveArtifacts	Attribute	-担当社員		6	関連の文字が見やすいよう調節しながら関連作成
+ミスに気づいたので取り消し
+103	35	Edit	Attribute	-担当社員	開発者	
+104	12	Create	Attribute	-attribute : String	マネージャ	
+105	40	Place	PlaceArtifacts	null	null	
+106	1	Place	PlaceArtifacts	null	null	
+107	4	Place	PlaceArtifacts	null	null	
+108	13	Create	Attribute	-attribute : String	テスター	
+109	13	Create	Attribute	-attribute : String	予備人員	7	プロジェクトと担当写真を一緒にしても大丈夫と思ったため、統合。
+110	5	Place	PlaceArtifacts	null	null	
+111	1	Save	Save	null	null	
+112	4	RemoveArtifacts	RemoveArtifacts	null	null	8	要らなくなったので担当社員を取り消し
+
+113	0	Save	Save	null	null	
+114	5	Place	PlaceArtifacts	null	null	
+115	9	Place	PlaceArtifacts	null	null	
+116	1	Place	PlaceArtifacts	null	null	
+117	2	Place	PlaceArtifacts	null	null	9	再び位置を調整
+118	52	Save	Save	null	null	
+119	2	Submit	Submit	null	null	
+120	72	Save	Save	null	null	
+121	2	Submit	Submit	null	null	
+122	107	Save	Save	null	null	
+123	61	Place	PlaceArtifacts	null	null	
+124	1	Place	PlaceArtifacts	null	null	
+125	4	Place	PlaceArtifacts	null	null	
+126	12	RemoveArtifacts	Attribute	-attribute : String		10	成果物の属性が足りないことに気づいたもののなぜか書き換えられなかった
+127	10	Place	PlaceArtifacts	null	null	
+128	4	Place	PlaceArtifacts	null	null	
+129	12	RemoveArtifacts	Attribute	-attribute : String		
+130	9	Place	PlaceArtifacts	null	null	
+131	2	Place	PlaceArtifacts	null	null	
+132	9	RemoveArtifacts	Attribute	-attribute : String		
+133	5	RemoveArtifacts	RemoveArtifacts	null	null	
+134	4	RemoveArtifacts	RemoveArtifacts	null	null	11	なぜか保存されていなかったため即座に訂正
+
+135	1149	Create	Attribute	-attribute : String	成果物名	
+136	5	Create	ClassRelationLinkArtifact[36500]	null	0,0	
+137	5	Create	Relation	No Name	作成する	
+138	5	Create	Relation	undefined	1,n	
+139	4	Create	Relation	undefined	1,n	12	完成
+140	2	Save	Save	null	null	
+141	0	Save	Save	null	null	
+142	0	Save	Save	null	null	
+143	0	Save	Save	null	null	
+144	1	Save	Save	null	null	
+145	0	Save	Save	null	null	
+146	0	Save	Save	null	null	
+147	0	Save	Save	null	null	
+148	1	Save	Save	null	null	
+149	1	Save	Save	null	null	
+150	0	Save	Save	null	null	
+151	0	Save	Save	null	null	
+152	0	Save	Save	null	null	
+153	0	Save	Save	null	null	
+154	3	Submit	Submit	null	null	
+155	1	Submit	Submit	null	null	
+156	0	Save	Save	null	null	13	先ほど保存されていなかったため、不安なので保存連打
+
+43:1145453-------------------------------
+1	0	Start	Start	null	null	
+2	289	Place	PlaceArtifacts	null	null	
+3	5	Place	PlaceArtifacts	null	null	
+4	19	Create	ClassName	Class4	部署	
+5	13	Create	Attribute	-attribute : String	部署ID	
+6	0	Place	PlaceArtifacts	null	null	
+7	6	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+8	11	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+9	45	Create	Attribute	-attribute : String	部署名	
+10	21	Create	ClassName	Class5	社員	
+11	0	Place	PlaceArtifacts	null	null	
+12	8	Create	Attribute	-attribute : String	社員ID	
+13	0	Place	PlaceArtifacts	null	null	
+14	4	Place	PlaceArtifacts	null	null	
+15	4	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+16	5	Place	PlaceArtifacts	null	null	
+17	17	Create	Attribute	-attribute : String	社員名	
+18	15	Place	PlaceArtifacts	null	null	
+19	3	Place	PlaceArtifacts	null	null	
+20	2	Place	PlaceArtifacts	null	null	
+21	8	Create	ClassRelationLinkArtifact[2212]	null	0,0	
+22	2	Place	PlaceArtifacts	null	null	
+23	8	Place	PlaceArtifacts	null	null	
+24	4	Place	PlaceArtifacts	null	null	
+25	185	Create	Relation	No Name	所属する	
+26	320	Place	PlaceArtifacts	null	null	
+27	12	Create	ClassName	Class6	プロジェクト	
+28	14	Place	PlaceArtifacts	null	null	
+29	11	Create	ClassRelationLinkArtifact[3098]	null	0,0	
+30	5	Place	PlaceArtifacts	null	null	
+31	8	Create	Relation	No Name	管理する	
+32	2	Place	PlaceArtifacts	null	null	
+33	4	Place	PlaceArtifacts	null	null	
+34	104	Create	Relation	undefined	1..*	1	部署一つに対して社員は1以上
+35	7	Create	Relation	undefined	1	2	社員一人に対して部署は1
+36	80	Place	PlaceArtifacts	null	null	
+37	11	Create	ClassRelationLinkArtifact[3886]	null	0,0	
+38	10	Create	Relation	No Name	担当する	
+39	103	Create	Relation	undefined	1..*	3	プロジェクト一つに対して社員は1以上
+40	4	Place	PlaceArtifacts	null	null	
+41	1	Place	PlaceArtifacts	null	null	
+42	518	Create	Relation	undefined	0..*	4	社員一人に対してプロジェクトは0以上
+43	18	Create	Relation	undefined	0..*	
+44	5	Place	PlaceArtifacts	null	null	
+45	48	Create	Relation	undefined	1	
+46	25	Place	PlaceArtifacts	null	null	
+47	15	Create	ClassName	Class7	成果物	
+48	71	Create	Attribute	-attribute : String	成果物名	
+49	2	Place	PlaceArtifacts	null	null	
+50	8	Create	Attribute	-attribute : String	プロジェクト名	
+51	89	RemoveArtifacts	Attribute	-attribute : String		
+52	8	Create	ClassRelationLinkArtifact[5218]	null	0,0	
+53	3	Create	ClassRelationLinkArtifact[5284]	null	0,0	
+54	12	Create	Relation	No Name	管理する	
+55	29	Create	Relation	No Name	作成する	
+56	9	Create	Relation	undefined	1..*	
+57	12	Create	Relation	undefined	1	
+58	20	Create	Relation	undefined	1	
+59	7	Place	PlaceArtifacts	null	null	
+60	4	Place	PlaceArtifacts	null	null	
+61	2	Place	PlaceArtifacts	null	null	
+62	19	Create	Relation	undefined	1..*	
+63	6	Place	PlaceArtifacts	null	null	5	基数が見にくいので配置変更
+64	2	Place	PlaceArtifacts	null	null	6	基数が見にくいので配置変更
+65	1	Place	PlaceArtifacts	null	null	7	基数が見にくいので配置変更
+66	4	Place	PlaceArtifacts	null	null	8	基数が見にくいので配置変更
+67	2	Place	PlaceArtifacts	null	null	9	基数が見にくいので配置変更
+68	1	Place	PlaceArtifacts	null	null	10	基数が見にくいので配置変更
+69	1	Place	PlaceArtifacts	null	null	11	基数が見にくいので配置変更
+70	4	Place	PlaceArtifacts	null	null	12	基数が見にくいので配置変更
+71	3	Place	PlaceArtifacts	null	null	13	基数が見にくいので配置変更
+72	2	Place	PlaceArtifacts	null	null	14	基数が見にくいので配置変更
+73	1	Place	PlaceArtifacts	null	null	15	基数が見にくいので配置変更
+74	1	Place	PlaceArtifacts	null	null	16	基数が見にくいので配置変更
+75	2	Place	PlaceArtifacts	null	null	17	基数が見にくいので配置変更
+76	175	Create	Attribute	-attribute : String	責任者名	
+77	30	Create	Attribute	-attribute : String	担当部署	
+78	12	Edit	Attribute	-担当部署	-主担当部署	
+79	271	Save	Save	null	null	
+80	845	Submit	Submit	null	null	
+
+44:c1145240-------------------------------
+1	0	Start	Start	null	null	
+2	205	Place	PlaceArtifacts	null	null	
+3	1	Place	PlaceArtifacts	null	null	
+4	0	Place	PlaceArtifacts	null	null	
+5	1	Place	PlaceArtifacts	null	null	
+6	0	Place	PlaceArtifacts	null	null	
+7	1	Place	PlaceArtifacts	null	null	
+8	0	Place	PlaceArtifacts	null	null	
+9	11	Place	PlaceArtifacts	null	null	
+10	0	Place	PlaceArtifacts	null	null	
+11	1	Place	PlaceArtifacts	null	null	
+12	1	Place	PlaceArtifacts	null	null	
+13	0	Place	PlaceArtifacts	null	null	
+14	0	Place	PlaceArtifacts	null	null	
+15	13	Create	ClassName	Class5	社員	
+16	2	Place	PlaceArtifacts	null	null	
+17	1	Place	PlaceArtifacts	null	null	
+18	0	Place	PlaceArtifacts	null	null	
+19	9	Create	Attribute	-attribute : String	社員名	
+20	10	Create	Attribute	-attribute : String	社員ID	1	課題文中から社員には社員名を、予測で社員IDの属性がある
+21	23	Place	PlaceArtifacts	null	null	
+22	13	Create	ClassName	Class6	部署	
+23	13	Create	Attribute	-attribute : String	部署ID	
+24	1	Place	PlaceArtifacts	null	null	
+25	1	Place	PlaceArtifacts	null	null	
+26	0	Place	PlaceArtifacts	null	null	
+27	11	Edit	Attribute	-社員名	-社員ID	
+28	11	Edit	Attribute	-社員ID	-社員名	
+29	11	Create	Attribute	-attribute : String	部署名	2	課題文中から部署の属性に部署名を、予測で部署IDを追加
+30	121	Place	PlaceArtifacts	null	null	
+31	16	Place	PlaceArtifacts	null	null	
+32	44	Place	PlaceArtifacts	null	null	
+33	8	Create	ClassName	Class7	プロジェクト	
+34	12	Create	Attribute	-attribute : String	開発者	
+35	8	Create	Attribute	-attribute : String	マネージャー	
+36	17	Create	Attribute	-attribute : String	テスター	
+37	18	Create	Attribute	-attribute : String	予備人員	
+38	285	RemoveArtifacts	ClassName	プロジェクト		
+39	31	Create	ClassName	Class	役割	
+40	4	Place	PlaceArtifacts	null	null	
+41	9	Create	ClassName	Class8	プロジェクト	
+42	11	Create	Attribute	-attribute : String	プロジェクト名	
+43	10	Create	Attribute	-attribute : String	担当	
+44	20	Place	PlaceArtifacts	null	null	
+45	10	Edit	Attribute	-担当	管理部署名	3	プロジェクトの属性にプロジェクト名と管理部署名追加
+46	3	Place	PlaceArtifacts	null	null	
+47	4	Place	PlaceArtifacts	null	null	
+48	3	Place	PlaceArtifacts	null	null	
+49	2	Place	PlaceArtifacts	null	null	
+50	2	Place	PlaceArtifacts	null	null	
+51	2	Place	PlaceArtifacts	null	null	
+52	5	Place	PlaceArtifacts	null	null	
+53	3	Place	PlaceArtifacts	null	null	
+54	3	Place	PlaceArtifacts	null	null	
+55	2	Place	PlaceArtifacts	null	null	
+56	6	Save	Save	null	null	
+57	46	Place	PlaceArtifacts	null	null	
+58	8	Create	ClassName	Class9	成果物	
+59	10	Create	Attribute	-attribute : String	成果物名	
+60	11	Create	Attribute	-attribute : String	責任者名	4	成果物の属性に成果物名と責任者名追加
+
+61	5	Place	PlaceArtifacts	null	null	
+62	198	Create	Attribute	-attribute : String	担当社員名	5	プロジェクトの属性に担当社員名追加
+63	35	RemoveArtifacts	Attribute	-attribute : String		
+64	6	Place	PlaceArtifacts	null	null	
+65	1	Place	PlaceArtifacts	null	null	
+66	2	Place	PlaceArtifacts	null	null	
+67	2	Place	PlaceArtifacts	null	null	
+68	13	Create	ClassRelationLinkArtifact[836]	null	0,0	
+69	4	Place	PlaceArtifacts	null	null	
+70	7	Place	PlaceArtifacts	null	null	
+71	11	Place	PlaceArtifacts	null	null	
+72	1	Place	PlaceArtifacts	null	null	
+73	1	Place	PlaceArtifacts	null	null	
+74	3	Create	ClassRelationLinkArtifact[1508]	null	0,0	
+75	11	Place	PlaceArtifacts	null	null	
+76	2	Place	PlaceArtifacts	null	null	
+77	4	Create	ClassRelationLinkArtifact[1846]	null	0,0	
+78	5	Place	PlaceArtifacts	null	null	
+79	3	Create	ClassRelationLinkArtifact[2113]	null	0,0	
+80	57	Place	PlaceArtifacts	null	null	
+81	17	Create	Relation	No Name	属する	
+82	4	Place	PlaceArtifacts	null	null	
+83	52	Create	Relation	No Name	担当	
+84	5	Place	PlaceArtifacts	null	null	
+85	19	Place	PlaceArtifacts	null	null	
+86	24	Create	Relation	No Name	作成	
+87	9	Place	PlaceArtifacts	null	null	
+88	3	Place	PlaceArtifacts	null	null	
+89	3	Place	PlaceArtifacts	null	null	
+90	4	Place	PlaceArtifacts	null	null	
+91	91	Create	Relation	undefined	1,*	
+92	29	RemoveArtifacts	Relation	No Name		
+93	26	Create	Relation	No Name	管理	
+94	4	Place	PlaceArtifacts	null	null	
+95	11	Create	Relation	undefined	1,*	
+96	118	Place	PlaceArtifacts	null	null	
+97	3	Place	PlaceArtifacts	null	null	
+98	10	Place	PlaceArtifacts	null	null	
+99	15	Create	Attribute	-attribute : String	役割名	
+100	93	RemoveArtifacts	Attribute	-開発者		
+101	5	RemoveArtifacts	Attribute	-マネージャー		
+102	6	RemoveArtifacts	Attribute	-予備人員		
+103	8	Edit	Attribute	-テスター	役割名	
+104	7	Place	PlaceArtifacts	null	null	
+105	5	Place	PlaceArtifacts	null	null	
+106	2	Place	PlaceArtifacts	null	null	
+107	58	Place	PlaceArtifacts	null	null	
+108	13	Create	Relation	undefined	1	
+109	116	Create	Relation	undefined	*	
+110	44	RemoveArtifacts	RemoveArtifacts	null	null	6	役割は不要だと思い削除
+111	93	Place	PlaceArtifacts	null	null	
+112	7	Create	ClassRelationLinkArtifact[5781]	null	0,0	
+113	5	Place	PlaceArtifacts	null	null	
+114	21	Create	Relation	No Name	担当	
+115	27	Create	Relation	undefined	1,*	
+116	4	Place	PlaceArtifacts	null	null	
+117	2	RemoveArtifacts	RemoveArtifacts	null	null	
+118	58	Place	PlaceArtifacts	null	null	
+119	3	Place	PlaceArtifacts	null	null	
+120	2	Place	PlaceArtifacts	null	null	
+121	3	Place	PlaceArtifacts	null	null	
+122	0	Place	PlaceArtifacts	null	null	
+123	1	Place	PlaceArtifacts	null	null	
+124	2	Place	PlaceArtifacts	null	null	
+125	2	Place	PlaceArtifacts	null	null	
+126	2	Place	PlaceArtifacts	null	null	
+127	2	Place	PlaceArtifacts	null	null	
+128	3	Place	PlaceArtifacts	null	null	
+129	2	Place	PlaceArtifacts	null	null	
+130	2	Place	PlaceArtifacts	null	null	
+131	3	Place	PlaceArtifacts	null	null	
+132	2	Save	Save	null	null	
+133	168	Save	Save	null	null	
+134	39	Edit	Relation	0..*	0,*	
+135	12	Edit	Relation	0..*	0,*	
+136	100	Edit	Relation	0,*	1,*	
+137	30	Edit	Relation	0,*	1,*	
+138	2	Save	Save	null	null	
+139	599	Submit	Submit	null	null	
+
+45:c1145248-------------------------------
+1	0	Start	Start	null	null	
+2	366	Place	PlaceArtifacts	null	null	
+3	85	Place	PlaceArtifacts	null	null	
+4	11	Create	ClassName	Class2	部署	
+5	34	Create	Attribute	-attribute : String	部署ID	
+6	9	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+7	5	Place	PlaceArtifacts	null	null	
+8	14	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+9	34	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+10	11	Place	PlaceArtifacts	null	null	
+11	11	Create	ClassName	Class3	社員	
+12	10	Create	Attribute	-attribute : String	社員	
+13	11	Edit	Attribute	-社員	-社員ID	
+14	11	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+15	13	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+16	100	Create	Attribute	-attribute : String	部署名	
+17	9	Create	Attribute	-attribute : String	社員名	
+18	12	Place	PlaceArtifacts	null	null	
+19	8	Create	ClassName	Class4	プロジェクト	
+20	17	Create	Attribute	-attribute : String	プロジェクトID	
+21	13	Edit	Attribute	-プロジェクトID	-プロジェクト番号	
+22	10	Create	Attribute	-attribute : String	プロジェクト名	
+23	41	Create	Attribute	-attribute : String	担当者	
+24	367	Place	PlaceArtifacts	null	null	
+25	14	Create	ClassName	Class6	成果	
+26	9	Create	Attribute	-attribute : String	成果物番号	
+27	8	Create	Attribute	-attribute : String	成果物	
+28	12	Edit	Attribute	-成果物	-成果物名	
+29	11	Create	Attribute	-attribute : String	責任者	
+30	2	Place	PlaceArtifacts	null	null	
+31	129	Place	PlaceArtifacts	null	null	
+32	14	Create	ClassRelationLinkArtifact[1938]	null	0,0	
+33	6	Place	PlaceArtifacts	null	null	
+34	3	Place	PlaceArtifacts	null	null	
+35	12	Place	PlaceArtifacts	null	null	
+36	38	Create	Relation	No Name	所属する	
+37	36	Create	Relation	undefined	1,N	
+38	37	Edit	Relation	1,N	1,*	
+39	16	Create	Relation	undefined	1,*	
+40	8	Place	PlaceArtifacts	null	null	
+41	5	Place	PlaceArtifacts	null	null	
+42	3	Place	PlaceArtifacts	null	null	
+43	2	Place	PlaceArtifacts	null	null	
+44	14	Create	ClassRelationLinkArtifact[3009]	null	0,0	
+45	10	Create	ClassRelationLinkArtifact[3314]	null	0,0	
+46	6	Create	ClassRelationLinkArtifact[3511]	null	0,0	
+47	14	Create	Relation	No Name	担当する	
+48	12	Create	Relation	No Name	管理する	
+49	11	Create	Relation	undefined	1,*	
+50	6	Create	Relation	undefined	1	
+51	97	Create	Attribute	-attribute : String	役割	
+52	6	Place	PlaceArtifacts	null	null	
+53	11	RemoveArtifacts	RemoveArtifacts	null	null	
+54	14	Create	ClassRelationLinkArtifact[4456]	null	0,0	
+55	13	RemoveArtifacts	RemoveArtifacts	null	null	
+56	14	RemoveArtifacts	RemoveArtifacts	null	null	
+57	10	Create	ClassRelationLinkArtifact[4716]	null	0,0	
+58	4	RemoveArtifacts	RemoveArtifacts	null	null	
+59	12	Create	ClassRelationLinkArtifact[4885]	null	0,0	
+60	18	Create	ClassRelationLinkArtifact[5274]	null	0,0	
+61	4	RemoveArtifacts	RemoveArtifacts	null	null	
+62	7	Create	ClassRelationLinkArtifact[5443]	null	0,0	
+63	5	RemoveArtifacts	RemoveArtifacts	null	null	
+64	176	RemoveArtifacts	RemoveArtifacts	null	null	
+65	14	Create	ClassRelationLinkArtifact[470]	null	0,0	
+66	10	Create	Relation	No Name	担当する	
+67	11	Create	Relation	No Name	開発する	
+68	10	Create	Relation	undefined	1	
+69	8	Create	Relation	undefined	1,*	
+70	14	Create	Relation	No Name	所属する	
+71	17	Create	Relation	undefined	1,*	
+72	8	RemoveArtifacts	RemoveArtifacts	null	null	
+73	2	Save	Save	null	null	
+74	17	Place	PlaceArtifacts	null	null	
+75	2	RemoveArtifacts	RemoveArtifacts	null	null	
+76	12	Place	PlaceArtifacts	null	null	
+77	5	Place	PlaceArtifacts	null	null	
+78	3	Place	PlaceArtifacts	null	null	
+79	2	RemoveArtifacts	RemoveArtifacts	null	null	
+80	6	Create	ClassRelationLinkArtifact[911]	null	0,0	
+81	39	Place	PlaceArtifacts	null	null	
+82	22	Create	Relation	undefined	1	
+83	22	Edit	Attribute	-役割	担当プロジェクト	
+84	14	Create	Attribute	-attribute : String	役割	
+85	6	RemoveArtifacts	RemoveArtifacts	null	null	
+86	18	RemoveArtifacts	RemoveArtifacts	null	null	
+87	11	Create	ClassRelationLinkArtifact[1562]	null	0,0	
+88	3	RemoveArtifacts	RemoveArtifacts	null	null	
+89	4	Save	Save	null	null	
+90	34	Create	ClassRelationLinkArtifact[434]	null	0,0	
+91	7	Place	PlaceArtifacts	null	null	
+92	7	Place	PlaceArtifacts	null	null	
+93	8	Place	PlaceArtifacts	null	null	
+94	15	Create	Relation	undefined	1,*	
+95	14	Create	Relation	undefined	1,*	
+96	12	Create	Relation	undefined	1,	
+97	13	Edit	Relation	1,	1,*	
+98	10	Create	Relation	No Name	所属する	
+99	11	Create	Relation	undefined	1,*	
+100	9	Create	Relation	undefined	1	
+101	140	Edit	Relation	1,*	*	
+102	83	Save	Save	null	null	
+103	2	Submit	Submit	null	null	
+104	295	Edit	Relation	1,*	0,*	
+105	6	Save	Save	null	null	
+106	2	Submit	Submit	null	null	
+107	119	Create	ClassRelationLinkArtifact[82161]	null	0,0	
+108	15	Place	PlaceArtifacts	null	null	
+109	12	Create	Relation	No Name	管理する	
+110	4	Place	PlaceArtifacts	null	null	
+111	8	Create	Relation	undefined	1	
+112	15	Create	Relation	undefined	0,*	
+113	1	Save	Save	null	null	
+114	2	Submit	Submit	null	null	1	課題文は、多重度が示されていると思われる部分に着目して読みました。
+この配置となった理由は、プロジェクトは部署・社員・成果の3要素全てに関係するものなのでこの配置にしました。あとは、多重度の見やすさの関係で細かく調整をしています。
+関連の線を引くと、自動的に湾曲して表示されることがあるので操作に少してこずりました。
+
+46:c1145349-------------------------------
+1	0	Start	Start	null	null	
+2	30	Place	PlaceArtifacts	null	null	1	とりあえずクラス作ろう。
+3	3	Create	ClassName	Class2	部署	2	まずは部署やな。（問題文の頭のほう見ながら）
+4	6	Create	Attribute	-attribute : String	部署ID	3	管理用に部署ID持たせよう。
+5	5	Create	Attribute	-attribute : String	部署名	4	部署名わかるようにせな。
+6	2	Place	PlaceArtifacts	null	null	
+7	22	Place	PlaceArtifacts	null	null	5	次は社員だな。（問題文読みながら）
+8	6	Create	ClassName	Class3	社員ID	6	あっ、間違えた・・・
+9	3	Edit	ClassName	社員ID	社員	7	社員クラスや。
+10	4	Create	Attribute	-attribute : String	社員ID	8	とりあえずIDやな。
+11	6	Create	Attribute	-attribute : String	社員名	9	名前もわかるようにしよう。
+12	16	Place	PlaceArtifacts	null	null	
+13	4	Create	ClassName	Class4	プロジェクト	10	よーしプロジェクトも作るか。（問題文読みながら）
+14	5	Create	Attribute	-attribute : String	プロジェクト名	11	プロジェクト名だな（問題文読みながら）
+15	14	Create	Attribute	-attribute : String	担当部署	12	部署が管理するから部署置こう。
+16	8	Create	Attribute	-attribute : String	担当社員	13	担当する社員いなきゃ意味ねえな。（問題文読みながら）
+17	11	RemoveArtifacts	Attribute	-attribute : String		
+18	7	Create	Attribute	-attribute : String	所属部署	14	社員の所属部署ないとだめかもわからんな。
+19	45	Create	Attribute	-attribute : String	成果物	15	成果物が生まれるんだな・・・（問題文読みながら）
+20	12	Place	PlaceArtifacts	null	null	16	おっと間違い
+21	3	RemoveArtifacts	RemoveArtifacts	null	null	17	消しとこ
+22	3	Place	PlaceArtifacts	null	null	
+23	3	Create	ClassName	Class5	成果物	18	成果物生んだ。
+24	7	Create	Attribute	-attribute : String	成果物名	19	とりあえず名前。
+25	10	Create	Attribute	-attribute : String	作成されたプロジェクト	20	どのプロジェクトで作ったかわからないとな。
+26	13	Create	Attribute	-attribute : String	責任者（社員ID）	21	責任者がおる。（問題文読みながら）
+27	3	Place	PlaceArtifacts	null	null	
+28	8	Edit	Attribute	-担当社員	-担当社員（社員ID）	22	これは社員ID・・・
+29	3	Place	PlaceArtifacts	null	null	
+30	2	Place	PlaceArtifacts	null	null	
+31	3	Place	PlaceArtifacts	null	null	
+32	5	Edit	Attribute	-所属部署	-所属ID	23	IDで管理してるからIDにしとこ（ここでは間違いに気がついていない）
+33	11	Edit	Attribute	-担当社員（社員ID）	-社員ID	24	これは社員IDでいいな。
+34	0	Place	PlaceArtifacts	null	null	
+35	5	Edit	Attribute	-担当部署	-部署ID	25	これも部署IDに変えとこ
+36	0	Place	PlaceArtifacts	null	null	
+37	19	Place	PlaceArtifacts	null	null	
+38	3	Place	PlaceArtifacts	null	null	
+39	3	Place	PlaceArtifacts	null	null	
+40	9	Create	Attribute	-attribute : String	成果物ID	26	成果物に一意の番号与えよう。管理しやすそうだし。
+41	4	Edit	Attribute	-成果物	-成果物ID	27	できたやつ一応張っとくか・・・（コメント書いてる時にいらないなと思った）
+42	46	Edit	Attribute	-所属ID	-部署ID	28	所属IDってなんだよ部署だよって気がつく。
+43	5	Place	PlaceArtifacts	null	null	
+44	7	Create	ClassRelationLinkArtifact[2059]	null	0,0	29	関連付けしよう。
+45	2	Place	PlaceArtifacts	null	null	
+46	4	Place	PlaceArtifacts	null	null	
+47	3	Create	Relation	No Name	所属	30	所属してます。
+48	8	Create	Relation	undefined	1.1	31	社員から見て所属部署は一個。
+49	7	Create	Relation	undefined	1.n	32	部署から見て社員はたくさん・・・
+50	5	Place	PlaceArtifacts	null	null	
+51	4	Save	Save	null	null	
+52	5	Place	PlaceArtifacts	null	null	
+53	1	Place	PlaceArtifacts	null	null	
+54	3	Place	PlaceArtifacts	null	null	
+55	7	Create	ClassRelationLinkArtifact[2801]	null	0,0	33	担当してるからな・・・
+56	29	Create	Relation	No Name	担当	34	担当。
+57	10	Create	Relation	undefined	1.n	35	社員から見て担当してるプロジェクトはたくさん・・・
+58	5	Create	Relation	undefined	1.n	36	プロジェクトからみて担当してる社員は一人以上・・・
+59	14	Create	ClassRelationLinkArtifact[2920]	null	0,0	37	プロジェクトには成果物がある…
+60	11	Create	Relation	No Name	成果	38	できました。
+61	9	Create	Relation	undefined	1.1	39	成果物には生みの親は一人
+62	5	Create	Relation	undefined	1.n	40	プロジェクトはたくさん生むこともある・・・
+63	13	Create	ClassRelationLinkArtifact[3074]	null	0,0	41	責任者がいるらしいな
+64	6	Create	Relation	No Name	責任者	42	責任者
+65	13	Create	Relation	undefined	0.n	43	社員から見て責任取るべき成果物はないかもしれない・・・
+66	4	Create	Relation	undefined	1.1	44	成果物の責任者は一人絶対。
+67	9	Place	PlaceArtifacts	null	null	
+68	7	Place	PlaceArtifacts	null	null	45	なんかクロスするなぁ・・・？
+69	1	Place	PlaceArtifacts	null	null	
+70	3	Place	PlaceArtifacts	null	null	
+71	1	Place	PlaceArtifacts	null	null	
+72	2	Place	PlaceArtifacts	null	null	
+73	8	Create	ClassRelationLinkArtifact[5021]	null	0,0	46	プロジェクトは部署が管理する・・・（問題文読みながら）
+74	3	Create	Relation	No Name	担当	47	担当でいいかな・・・
+75	5	Create	Relation	undefined	1.1	48	プロジェクトに部署はひとつ
+76	8	Create	Relation	undefined	1.n	49	部署は複数のプロジェクトをもちうる・・・
+77	1	Place	PlaceArtifacts	null	null	50	なんか位置が悪いな？？？
+
+78	2	Place	PlaceArtifacts	null	null	
+79	1	Place	PlaceArtifacts	null	null	
+80	3	Place	PlaceArtifacts	null	null	
+81	21	Edit	Relation	担当	管理	51	これ担当じゃなくて管理のほうがいいか。
+82	60	Save	Save	null	null	
+83	31	Create	Attribute	-attribute : String	プロジェクトID	52	管理用にプロジェクトID持たせるか。
+84	30	Edit	Attribute	-責任者（社員ID）	社員ID	53	社員IDに省略だ。
+85	43	Place	PlaceArtifacts	null	null	
+86	4	Create	ClassName	Class6	担当者	54	担当者作るの難しいからクラス化しちゃおう
+87	7	Create	Attribute	-attribute : String	社員ID	55	社員IDと役割IDから個別コード発行しちゃうぞ
+88	41	RemoveArtifacts	RemoveArtifacts	null	null	
+89	34	Save	Save	null	null	
+90	25	Edit	Attribute	-作成されたプロジェクト	プロジェクトID	
+91	22	Place	PlaceArtifacts	null	null	
+92	8	Create	Attribute	-attribute : String	プロジェクト開始日時	
+93	8	Create	Attribute	-attribute : String	プロジェクト完了日時	
+94	13	Place	PlaceArtifacts	null	null	
+95	13	Create	Attribute	-attribute : String	作成日時	
+96	5	Edit	Attribute	-プロジェクト開始日時	-開始日時	
+97	2	Place	PlaceArtifacts	null	null	
+98	6	Edit	Attribute	-プロジェクト完了日時	-完了日時	
+99	72	Create	Attribute	-attribute : String	役割ID	
+100	14	Place	PlaceArtifacts	null	null	
+101	3	Create	ClassName	Class2	役割	
+102	5	Create	Attribute	-attribute : String	社員ID	
+103	14	Create	Attribute	-attribute : String	役割ID	
+104	6	Create	Attribute	-attribute : String	役割名	
+105	2	Place	PlaceArtifacts	null	null	
+106	1	Place	PlaceArtifacts	null	null	
+107	1	Place	PlaceArtifacts	null	null	
+108	10	Create	Attribute	-attribute : String	個別ID	
+109	7	Edit	Attribute	-役割ID	-役割	
+110	10	Place	PlaceArtifacts	null	null	
+111	1	Place	PlaceArtifacts	null	null	
+112	6	Place	PlaceArtifacts	null	null	
+113	18	Edit	Attribute	-役割	-役割CODE	
+114	4	Edit	Attribute	-個別ID	役割CODE	
+115	8	Create	ClassRelationLinkArtifact[3353]	null	0,0	
+116	5	Create	Relation	No Name	参照	
+117	11	Create	Relation	undefined	1.n	
+118	7	Create	Relation	undefined	1.1	
+119	13	Create	ClassRelationLinkArtifact[3525]	null	0,0	
+120	3	Place	PlaceArtifacts	null	null	
+121	2	Place	PlaceArtifacts	null	null	
+122	2	Place	PlaceArtifacts	null	null	
+123	3	Create	Relation	undefined	参照	
+124	11	Create	Relation	No Name	1.1	
+125	9	Edit	Relation	参照	1.n	
+126	2	Place	PlaceArtifacts	null	null	
+127	3	Create	Relation	undefined	1.1	
+128	5	Edit	Relation	1.1	参照	
+129	1	Place	PlaceArtifacts	null	null	
+130	2	Place	PlaceArtifacts	null	null	
+131	2	Place	PlaceArtifacts	null	null	
+132	1	Place	PlaceArtifacts	null	null	
+133	1	Place	PlaceArtifacts	null	null	
+134	2	Place	PlaceArtifacts	null	null	
+135	0	Place	PlaceArtifacts	null	null	
+136	4	Place	PlaceArtifacts	null	null	
+137	1	Place	PlaceArtifacts	null	null	
+138	1	Place	PlaceArtifacts	null	null	
+139	4	Place	PlaceArtifacts	null	null	
+140	2	Place	PlaceArtifacts	null	null	
+141	2	Place	PlaceArtifacts	null	null	
+142	1	Place	PlaceArtifacts	null	null	
+143	2	Place	PlaceArtifacts	null	null	
+144	1	Place	PlaceArtifacts	null	null	
+145	1	Place	PlaceArtifacts	null	null	
+146	4	Place	PlaceArtifacts	null	null	
+147	2	Place	PlaceArtifacts	null	null	
+148	4	Place	PlaceArtifacts	null	null	
+149	4	Place	PlaceArtifacts	null	null	
+150	1	Place	PlaceArtifacts	null	null	
+151	2	Place	PlaceArtifacts	null	null	
+152	1	Place	PlaceArtifacts	null	null	
+153	2	Place	PlaceArtifacts	null	null	
+154	2	Place	PlaceArtifacts	null	null	
+155	2	Place	PlaceArtifacts	null	null	
+156	1	Place	PlaceArtifacts	null	null	
+157	6	Place	PlaceArtifacts	null	null	
+158	1	Place	PlaceArtifacts	null	null	
+159	2	Place	PlaceArtifacts	null	null	
+160	1	Place	PlaceArtifacts	null	null	
+161	2	Place	PlaceArtifacts	null	null	
+162	1	Place	PlaceArtifacts	null	null	
+163	2	Place	PlaceArtifacts	null	null	
+164	2	Place	PlaceArtifacts	null	null	
+165	8	RemoveArtifacts	Attribute	-社員ID		
+166	5	RemoveArtifacts	Attribute	-attribute : String		
+167	6	Place	PlaceArtifacts	null	null	
+168	4	Edit	Attribute	-役割CODE	-社員役割CODE	
+169	4	Edit	Attribute	-役割CODE	-社員役割CODE	
+170	5	Save	Save	null	null	
+171	40	Difficult	Difficult	null	null	
+172	8	Save	Save	null	null	
+173	34	Save	Save	null	null	
+174	106	Edit	Attribute	-開始日時	-開始年月日	
+175	5	Edit	Attribute	-完了日時	-完了年月日	
+176	43	RemoveArtifacts	RemoveArtifacts	null	null	
+177	8	Save	Save	null	null	
+178	9	Place	PlaceArtifacts	null	null	
+179	30	Edit	Attribute	-社員役割CODE	開発者	
+180	4	Create	Attribute	-attribute  : String	マネージャー	
+181	3	Create	Attribute	-attribute : String	テスター	
+182	12	Create	Attribute	-attribute : String	予備人員	
+183	0	Place	PlaceArtifacts	null	null	
+184	11	Place	PlaceArtifacts	null	null	
+185	1	Place	PlaceArtifacts	null	null	
+186	10	Edit	Attribute	-開発者	-開発者 （社員ID）	
+187	6	Place	PlaceArtifacts	null	null	
+188	3	Edit	Attribute	-マネージャー	-マネージャー  （社員ID）	
+189	0	Place	PlaceArtifacts	null	null	
+190	3	Edit	Attribute	-テスター	-テスター  （社員ID）	
+191	0	Place	PlaceArtifacts	null	null	
+192	3	Edit	Attribute	-予備人員	-予備人員  （社員ID）	
+193	32	RemoveArtifacts	Attribute	-attribute : String		
+194	0	Place	PlaceArtifacts	null	null	
+195	2	RemoveArtifacts	Attribute	-attribute : String		
+196	15	Place	PlaceArtifacts	null	null	
+197	1	Place	PlaceArtifacts	null	null	
+198	8	Save	Save	null	null	
+199	25	Submit	Submit	null	null	
+200	53	Place	PlaceArtifacts	null	null	
+201	5	Create	ClassName	Class2	役割	
+202	6	Create	Attribute	-attribute : String	プロジェクトID	
+203	6	Create	Attribute	-attribute : String	-開発者 （社員ID）	
+204	0	Place	PlaceArtifacts	null	null	
+205	3	Create	Attribute	-attribute : String	-マネージャー  （社員ID）	
+206	2	Place	PlaceArtifacts	null	null	
+207	4	Create	Attribute	-attribute : String	-テスター  （社員ID）	
+208	4	Create	Attribute	-attribute : String	-予備人員  （社員ID）	
+209	2	Place	PlaceArtifacts	null	null	
+210	1	Place	PlaceArtifacts	null	null	
+211	2	RemoveArtifacts	Attribute	-開発者 （社員ID）		
+212	0	Place	PlaceArtifacts	null	null	
+213	1	RemoveArtifacts	Attribute	-テスター  （社員ID）		
+214	0	Place	PlaceArtifacts	null	null	
+215	2	RemoveArtifacts	Attribute	-マネージャー  （社員ID）		
+216	0	Place	PlaceArtifacts	null	null	
+217	1	RemoveArtifacts	Attribute	-予備人員  （社員ID）		
+218	0	Place	PlaceArtifacts	null	null	
+219	2	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+220	0	Place	PlaceArtifacts	null	null	
+221	2	RemoveArtifacts	Method	+method(parameter1 : String) : void		
+222	8	Create	Attribute	-attribute : String	役割ID	
+223	8	Create	Attribute	-attribute : String	役割ID	
+224	5	Create	ClassRelationLinkArtifact[8232]	null	0,0	
+225	8	Create	Relation	No Name	役割参照	
+226	6	Create	Relation	undefined	1.1	
+227	8	Create	Relation	undefined	1.1	
+228	43	Edit	Relation	1.1	1..1	56	UMLときいたので書き直し
+229	3	Edit	Relation	1.1	1..1	
+230	5	Edit	Relation	1.n	1..*	
+231	3	Edit	Relation	1.1	1..1	
+232	3	Edit	Relation	1.1	1..1	
+233	4	Edit	Relation	1.n	1..*	
+234	4	Edit	Relation	1.n	1..*	
+235	4	Edit	Relation	1.1	1..1	
+236	4	Edit	Relation	0.n	0..*	
+237	5	Edit	Relation	1.n	1..*	
+238	0	Save	Save	null	null	
+239	4	Edit	Relation	1.1	1..1	
+240	4	Edit	Relation	1.n	1..*	
+241	3	Place	PlaceArtifacts	null	null	
+242	1	Save	Save	null	null	
+243	13	Save	Save	null	null	
+244	2	Submit	Submit	null	null	57	最終的にこんな感じでどうでしょう（完成です）
